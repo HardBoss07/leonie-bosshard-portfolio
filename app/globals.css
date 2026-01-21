@@ -1,9 +1,19 @@
-/**
- * ButtonComponent.tsx
- * @author Matteo Bosshard
- * @version 11.03.2025
- */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-[#121212] text-[#959595] font-['Lato'] font-medium;
+}
+
+h1 {
+    @apply text-[#FF0A54] text-6xl font-bold pt-4 pb-10;
+}
+
+h3 {
+    @apply text-xl;
+}
+
+h4 {
+    @apply text-xl text-[#656565];
+}

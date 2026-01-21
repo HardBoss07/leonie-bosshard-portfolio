@@ -1,22 +1,14 @@
-/**
- * ButtonComponent.tsx
- * @author Matteo Bosshard
- * @version 11.03.2025
- */
-
 "use client"
-import ButtonComponent from "@/app/components/ButtonComponent";
+import ButtonComponent from "@/components/UI/ButtonComponent";
 import {useState} from "react";
+import IntroPage from "@/components/Pages/IntroPage";
 
 export default function Home() {
-  const [counter, setCounter] = useState(0);
+    const [counter, setCounter] = useState(0);
 
-  return (
-    <>
-      <ButtonComponent
-          text={counter.toString()}
-          onClick={() => setCounter(prev => prev + 1)}
-      />
-    </>
-  );
+    return (
+        <>
+            <IntroPage/>
+        </>
+    );
 }
