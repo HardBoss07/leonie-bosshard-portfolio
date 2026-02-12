@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="flex flex-col items-center py-8 bg-background text-primary-text">
+        <footer className="flex flex-col items-center py-8 bg-neutral-900 text-primary-text">
             <h2 className="text-primary-accent text-3xl font-bold mb-4">
                 Leonie Bosshard
             </h2>
