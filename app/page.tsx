@@ -1,6 +1,6 @@
 "use client"
-import IntroPage from "@/components/Pages/IntroPage";
-import Projects from "@/components/projects/Projects";
+import IntroPage from "@/components/Sections/IntroPage";
+import Projects from "@/components/Sections/Projects";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import SkillGroup from "@/components/skills/SkillGroup";

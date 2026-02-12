@@ -8,11 +8,13 @@ leonie-bosshard-portfolio/
 │   ├── layout.tsx
 │   └── page.tsx
 ├── components/
-│   ├── Pages/
-│   │   └── IntroPage.tsx
+│   ├── Sections/
+│   │   ├── IntroPage.tsx
+│   │   └── Projects.tsx
 │   ├── UI/
 │   │   ├── ButtonComponent.css
 │   │   ├── ButtonComponent.tsx
+│   │   ├── Headshot.tsx
 │   │   └── TestIcon.tsx
 │   ├── layout/
 │   │   ├── Footer.tsx
@@ -21,7 +23,6 @@ leonie-bosshard-portfolio/
 │   │   ├── CategoryFilter.tsx
 │   │   ├── ProjectCard.tsx
 │   │   ├── ProjectGrid.tsx
-│   │   ├── Projects.tsx
 │   │   └── index.ts
 │   └── skills/
 │       ├── AdobePremiere.tsx
@@ -39,17 +40,15 @@ leonie-bosshard-portfolio/
 │   │   ├── AdobePremiere.svg
 │   │   └── logo.svg
 │   ├── images/
-│   │   ├── image.png
-│   │   ├── placeholder-analog-design.jpg
-│   │   ├── placeholder-graphic-design.jpg
-│   │   ├── placeholder-photography.jpg
-│   │   └── placeholder-ux-ui-design.jpg
+│   │   ├── example.png
+│   │   └── headshot.png
 │   ├── file.svg
 │   ├── globe.svg
 │   ├── next.svg
 │   ├── vercel.svg
 │   └── window.svg
 ├── types/
+│   ├── headshot.ts
 │   ├── project.ts
 │   └── skill.ts
 ├── GEMINI.md
