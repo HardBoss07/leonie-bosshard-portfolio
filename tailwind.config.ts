@@ -8,8 +8,13 @@ export default {
   ],
   theme: {
     extend: {
-      family: {
+      fontFamily: {
         sans: ["var(--font-lato)", "sans-serif"],
+      },
+      colors: {
+        'primary-accent': '#FF0A54',
+        'primary-text': '#959595',
+        'background': '#121212',
       },
     },
   },
