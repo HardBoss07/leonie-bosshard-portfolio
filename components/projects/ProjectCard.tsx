@@ -9,7 +9,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   // Determine the placeholder image path based on the category
   // const placeholderImagePath = `/images/placeholder-${category.toLowerCase().replace(/ /g, '-')}.jpg`;
-  const placeholderImagePath = `/images/image.png`;
+  const placeholderImagePath = `/images/example.png`;
 
   return (
     <div

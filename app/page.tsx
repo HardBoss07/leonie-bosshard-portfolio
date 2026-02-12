@@ -4,6 +4,7 @@ import Projects from "@/components/projects/Projects";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import SkillGroup from "@/components/skills/SkillGroup";
+import Headshot from "@/components/UI/Headshot";
 
 export default function Home() {
     return (
@@ -13,6 +14,10 @@ export default function Home() {
             <SkillGroup />
             <Projects />
             <Footer />
+            <Headshot topLeft topRight className="w-64 h-64"/>
+
+            <Headshot topLeft topRight bottomLeft bottomRight className="w-64 h-64"/>
+
         </div>
     );
 }
