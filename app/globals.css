@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 body {
-    @apply bg-[#121212] text-[#959595] font-['Lato'] font-medium;
+    @apply bg-background text-primary-text font-medium;
 }
 
 h1 {
-    @apply text-[#FF0A54] text-6xl font-bold pt-4 pb-10;
+    @apply text-primary-accent text-6xl font-bold pt-4 pb-10;
 }
 
 h3 {
