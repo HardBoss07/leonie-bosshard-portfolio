@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { PROJECT_CATEGORIES } from "@/lib/constants/categories";
 import { ProjectCategory } from "@/types/project";
 import { cn } from "@/lib/utils/cn";
@@ -23,10 +23,8 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({
           key={category}
           onClick={() => onSelectCategory(category as ProjectCategory | "All")}
           className={cn(
-            "px-8 py-3 rounded-xl text-lg font-bold transition-colors duration-200", // Increased padding, smaller border-radius
-            activeCategory === category
-              ? "bg-primary-accent text-white shadow-md"
-              : "bg-neutral-800 text-primary-text hover:bg-primary-accent hover:text-white", // Changed bg-gray-700 to bg-neutral-700
+            // Use the new uniform classes from globals.css
+            activeCategory === category ? "btn-primary" : "btn-neutral"
           )}
         >
           {category}

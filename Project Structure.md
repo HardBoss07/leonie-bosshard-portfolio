@@ -9,7 +9,8 @@ leonie-bosshard-portfolio/
 │   └── page.tsx
 ├── components/
 │   ├── Sections/
-│   │   ├── IntroPage.tsx
+│   │   ├── About.tsx
+│   │   ├── Hero.tsx
 │   │   └── Projects.tsx
 │   ├── UI/
 │   │   ├── ButtonComponent.css
@@ -39,14 +40,9 @@ leonie-bosshard-portfolio/
 │   ├── icons/
 │   │   ├── AdobePremiere.svg
 │   │   └── logo.svg
-│   ├── images/
-│   │   ├── example.png
-│   │   └── headshot.png
-│   ├── file.svg
-│   ├── globe.svg
-│   ├── next.svg
-│   ├── vercel.svg
-│   └── window.svg
+│   └── images/
+│       ├── example.png
+│       └── headshot.png
 ├── types/
 │   ├── headshot.ts
 │   ├── project.ts

@@ -2,18 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+@layer base {
+  body {
     @apply bg-background text-primary-text font-medium;
-}
+  }
 
-h1 {
-    @apply text-primary-accent text-6xl font-bold pt-4 pb-10;
-}
+  h1 {
+    /* tracking-tighter matches the compressed look of the portfolio heading */
+    @apply text-7xl md:text-8xl font-black pt-2 pb-6 leading-[0.85] tracking-tighter;
+  }
 
-h3 {
-    @apply text-xl;
-}
+  h2 {
+    @apply text-center text-primary-accent text-4xl font-bold mb-10;
+  }
 
-h4 {
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  h4 {
     @apply text-xl text-[#656565];
+  }
+}
+
+@layer components {
+  /* The Base Template */
+  .btn-base {
+    @apply inline-flex items-center justify-center 
+           min-w-[200px] px-8 py-2 
+           text-lg font-bold rounded-xl 
+           transition-all duration-200 
+           active:scale-95 shadow-sm;
+  }
+
+  /* Your "Active" / Pink State */
+  .btn-primary {
+    @apply btn-base bg-primary-accent text-white border-2 border-transparent
+           hover:brightness-110 shadow-md;
+  }
+
+  /* The "Inactive" / Neutral State */
+  .btn-neutral {
+    @apply btn-base bg-neutral-800 text-primary-text border-2 border-transparent
+           hover:bg-primary-accent hover:text-white hover:shadow-md;
+  }
+
+  /* Your Grey/Transparent Outline State */
+  .btn-outline {
+    @apply btn-base bg-transparent text-neutral-400 border-2 border-neutral-700
+           hover:border-neutral-400 hover:text-white transition-all;
+  }
+
+  /* Pink on White */
+  .btn-pink-white {
+    @apply btn-base bg-[#FF0A54] text-white border-2 border-[#FF0A54]
+           hover:bg-white hover:text-[#FF0A54];
+  }
 }
