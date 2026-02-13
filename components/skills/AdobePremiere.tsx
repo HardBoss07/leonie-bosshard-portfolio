@@ -1,5 +1,3 @@
-import React from "react";
-
 export const AdobePremiereIcon = ({ className }: { className?: string }) => (
   <svg
     width="38"
