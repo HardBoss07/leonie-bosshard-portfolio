@@ -13,7 +13,6 @@ leonie-bosshard-portfolio/
 │   │   ├── Hero.tsx
 │   │   └── Projects.tsx
 │   ├── UI/
-│   │   ├── ButtonComponent.css
 │   │   ├── ButtonComponent.tsx
 │   │   ├── Headshot.tsx
 │   │   └── TestIcon.tsx

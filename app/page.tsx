@@ -10,19 +10,11 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <section id="home">
-        <Hero />
-      </section>
-      <section id="about">
-        <About />
-        <SkillGroup />
-      </section>
-      <section id="portfolio">
-        <Projects />
-      </section>
-      <section id="contact">
-        <Footer />
-      </section>
+      <Hero />
+      <About />
+      <SkillGroup />
+      <Projects />
+      <Footer />
     </main>
   );
 }

@@ -3,7 +3,7 @@ import { Download } from "iconoir-react";
 
 const About = () => {
   return (
-    <section className="section-padding">
+    <section className="section-padding" id="about">
       <div className="page-container">
         <div className="flex flex-col items-center mb-16 space-y-2">
           <h2 className="text-4xl md:text-5xl font-bold text-primary-accent">

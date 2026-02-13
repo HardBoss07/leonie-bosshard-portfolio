@@ -46,7 +46,7 @@ const Projects = () => {
       : mockProjects.filter((project) => project.category === activeCategory);
 
   return (
-    <section className="section-padding">
+    <section className="section-padding" id="portfolio">
       <div className="page-container">
         <h2 className="text-center text-primary-accent text-4xl font-bold mb-10">
           Portfolio

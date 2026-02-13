@@ -6,7 +6,7 @@ export default function Hero() {
   const downloadCV = () => console.log("Downloaded CV");
 
   return (
-    <section className="section-padding flex items-center min-h-screen">
+    <section className="section-padding flex items-center min-h-screen" id="home">
       <div className="page-container flex flex-col lg:flex-row items-center justify-between gap-12">
         <div className="flex flex-col gap-1 z-10 max-w-2xl text-center lg:text-left items-center lg:items-start">
           <h4 className="text-xl md:text-2xl text-[#656565] font-semibold mb-1">
