@@ -1,18 +1,15 @@
 interface ButtonProps {
-    text: string;
-    style: string;
-    onClick: () => void;
+  text: string;
+  style: string;
+  onClick: () => void;
 }
 
-export default function ButtonComponent({text, style, onClick}: ButtonProps) {
-    return (
-        <div>
-            <button
-                className={style}
-                onClick={onClick}
-            >
-                {text}
-            </button>
-        </div>
-    );
+export default function ButtonComponent({ text, style, onClick }: ButtonProps) {
+  return (
+    <div>
+      <button className={style} onClick={onClick}>
+        {text}
+      </button>
+    </div>
+  );
 }

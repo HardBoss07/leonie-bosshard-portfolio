@@ -24,7 +24,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({
           onClick={() => onSelectCategory(category as ProjectCategory | "All")}
           className={cn(
             // Use the new uniform classes from globals.css
-            activeCategory === category ? "btn-primary" : "btn-neutral"
+            activeCategory === category ? "btn-primary" : "btn-neutral",
           )}
         >
           {category}

@@ -2,11 +2,11 @@ import React from "react";
 import { SkillIndicatorProps } from "@/types/skill";
 import { cn } from "@/lib/utils/cn";
 import {
-  Figma,
-  AdobePhotoshop,
   AdobeIllustrator,
-  AdobeLightroom,
   AdobeIndesign,
+  AdobeLightroom,
+  AdobePhotoshop,
+  Figma,
 } from "iconoir-react";
 // Import your custom icon component here
 import { AdobePremiereIcon } from "@/components/skills/AdobePremiere";

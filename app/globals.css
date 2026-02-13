@@ -38,35 +38,35 @@
 @layer components {
   /* The Base Template */
   .btn-base {
-    @apply inline-flex items-center justify-center 
-           px-6 py-2 
-           text-base font-bold rounded-xl 
-           transition-all duration-200 
-           active:scale-95 shadow-sm
-           sm:px-8 sm:text-lg;
+    @apply inline-flex items-center justify-center
+        px-6 py-2
+        text-base font-bold rounded-xl
+        transition-all duration-200
+        active:scale-95 shadow-sm
+        sm:px-8 sm:text-lg;
   }
 
   /* Your "Active" / Pink State */
   .btn-primary {
     @apply btn-base bg-primary-accent text-white border-2 border-transparent
-           hover:brightness-110 shadow-md;
+        hover:brightness-110 shadow-md;
   }
 
   /* The "Inactive" / Neutral State */
   .btn-neutral {
     @apply btn-base bg-neutral-800 text-primary-text border-2 border-transparent
-           hover:bg-primary-accent hover:text-white hover:shadow-md;
+        hover:bg-primary-accent hover:text-white hover:shadow-md;
   }
 
   /* Your Grey/Transparent Outline State */
   .btn-outline {
     @apply btn-base bg-transparent text-neutral-400 border-2 border-neutral-700
-           hover:border-neutral-400 hover:text-white transition-all;
+        hover:border-neutral-400 hover:text-white transition-all;
   }
 
   /* Pink on White */
   .btn-pink-white {
     @apply btn-base bg-[#FF0A54] text-white border-2 border-[#FF0A54]
-           hover:bg-white hover:text-[#FF0A54];
+        hover:bg-white hover:text-[#FF0A54];
   }
 }

@@ -5,16 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdcff5a9-95ef-46e5-a705-bcb573cc1d35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Pages/IntroPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UI/ButtonComponent.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ButtonComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/ButtonComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEMINI.md" beforeDir="false" afterPath="$PROJECT_DIR$/GEMINI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sections/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sections/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sections/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sections/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sections/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sections/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/Headshot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/Headshot.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/TestIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/TestIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/CategoryFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/projects/CategoryFilter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/ProjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/projects/ProjectCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/ProjectGrid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/projects/ProjectGrid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/projects/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/skills/AdobePremiere.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skills/AdobePremiere.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/skills/SkillGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skills/SkillGroup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/skills/SkillIndicator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skills/SkillIndicator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/skills/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/skills/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants/categories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/categories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/cn.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/cn.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/get-lucide-icon.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/get-lucide-icon.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/AdobePremiere.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/AdobePremiere.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/headshot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/headshot.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/project.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/skill.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/skill.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +61,13 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/HardBoss07/leonie-bosshard-portfolio.git",
-    "accountId": "44993958-e86b-4eb8-8a66-87877412a54b"
+    "url": "https://github.com/HardBoss07/leonie-bosshard-portfolio",
+    "accountId": "1982742d-cfde-43e3-89eb-c94e612a94be"
   }
 }]]></component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="tyqNryQA" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -56,6 +81,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Code Projects",
@@ -63,7 +89,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
-    "ts.external.directory.path": "C:\\Code Projects\\leonie-bosshard-portfolio\\node_modules\\typescript\\lib",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "show.migrate.to.gradle.popup": "false",
+    "ts.external.directory.path": "D:\\Code Projects\\leonie-bosshard-portfolio\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,7 +113,26 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdcff5a9-95ef-46e5-a705-bcb573cc1d35" name="Changes" comment="" />
+      <created>1770973754044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770973754044</updated>
+      <workItem from="1770973755242" duration="157000" />
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>

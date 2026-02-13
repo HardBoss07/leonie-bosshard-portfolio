@@ -1,4 +1,4 @@
-import { Phone, Mail } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -35,13 +35,19 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row gap-x-8 gap-y-4">
           <div className="flex items-center space-x-2">
             <Mail size={20} className="text-primary-text" />
-            <a href="mailto:leonie@bosshard.net" className="hover:text-primary-accent font-bold">
+            <a
+              href="mailto:leonie@bosshard.net"
+              className="hover:text-primary-accent font-bold"
+            >
               leonie@bosshard.net
             </a>
           </div>
           <div className="flex items-center space-x-2">
             <Phone size={20} className="text-primary-text" />
-            <a href="tel:+41767243520" className="hover:text-primary-accent font-bold">
+            <a
+              href="tel:+41767243520"
+              className="hover:text-primary-accent font-bold"
+            >
               +41 76 724 35 20
             </a>
           </div>

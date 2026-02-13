@@ -1,5 +1,5 @@
-import { Figma, Camera, Palette, LucideProps, LucideIcon } from 'lucide-react';
-import React from 'react';
+import { Camera, Figma, LucideIcon, LucideProps, Palette } from "lucide-react";
+import React from "react";
 
 interface IconProps extends LucideProps {
   name: string;

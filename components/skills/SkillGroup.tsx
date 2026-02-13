@@ -18,6 +18,6 @@ const SkillGroup = () => {
       </div>
     </section>
   );
-}
+};
 
 export default SkillGroup;

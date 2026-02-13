@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Hero from "@/components/Sections/Hero";
 import Projects from "@/components/Sections/Projects";
 import Header from "@/components/layout/Header";
