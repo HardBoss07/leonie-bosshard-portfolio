@@ -43,10 +43,17 @@ const Projects = () => {
         : mockProjects.filter(project => project.category === activeCategory);
 
     return (
-        <section className="container mx-auto py-16 px-4">
-            <h2 className="text-center text-primary-accent text-4xl font-bold mb-10">My Projects</h2>
-            <CategoryFilter onSelectCategory={setActiveCategory} activeCategory={activeCategory} />
-            <ProjectGrid projects={filteredProjects} />
+        <section className="section-padding">
+            <div className="page-container">
+                <h2 className="text-center text-primary-accent text-4xl font-bold mb-10">
+                    Portfolio
+                </h2>
+                <CategoryFilter
+                    onSelectCategory={setActiveCategory}
+                    activeCategory={activeCategory}
+                />
+                <ProjectGrid projects={filteredProjects} />
+            </div>
         </section>
     );
 }
