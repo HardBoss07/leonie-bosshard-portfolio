@@ -11,22 +11,22 @@ const Footer = () => {
         <nav className="mb-6">
           <ul className="flex flex-wrap justify-center space-x-6">
             <li>
-              <Link href="#" className="hover:text-primary-accent">
+              <Link href="/" className="hover:text-primary-accent">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-primary-accent">
+              <Link href="#about" className="hover:text-primary-accent">
                 About me
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-primary-accent">
+              <Link href="#portfolio" className="hover:text-primary-accent">
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-primary-accent">
+              <Link href="#contact" className="hover:text-primary-accent">
                 Contact me
               </Link>
             </li>
