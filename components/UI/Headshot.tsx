@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { cn } from "@/lib/utils/cn"; // Assuming you're using the same cn utility as before
+import { cn } from "@/lib/utils/cn";
 import { HeadshotProps } from "@/types/headshot";
 
 const Headshot = ({
@@ -12,9 +12,8 @@ const Headshot = ({
     return (
         <div className={cn(
             "relative overflow-hidden",
-            // Default small rounding vs full rounding logic
-            topLeft ? "rounded-tl-full" : "rounded-tl-md",
-            topRight ? "rounded-tr-full" : "rounded-tr-md",
+            topLeft ? "rounded-tl-full" : "rounded-tl-xl",
+            topRight ? "rounded-tr-full" : "rounded-tr-xl",
             bottomLeft ? "rounded-bl-full" : "rounded-bl-xl",
             bottomRight ? "rounded-br-full" : "rounded-br-xl",
             className)}>

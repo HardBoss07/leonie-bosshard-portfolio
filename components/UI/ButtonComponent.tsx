@@ -1,6 +1,3 @@
-import React from "react";
-import "./ButtonComponent.css";
-
 interface ButtonProps {
     text: string;
     style: string;
