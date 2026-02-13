@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectCardProps } from "@/types/project";
-import ProjectCard from "./ProjectCard"; // Assuming ProjectCard is in the same directory
+import ProjectCard from "@/components/projects/ProjectCard";
 
 interface ProjectGridProps {
   projects: ProjectCardProps[];
@@ -8,9 +8,14 @@ interface ProjectGridProps {
 
 const ProjectGrid: React.FC<ProjectGridProps> = ({ projects }) => {
   return (
-    <div className="flex flex-wrap justify-center gap-6 p-8">
+    <div className="flex overflow-x-auto snap-x snap-mandatory gap-0 mt-12 pb-8  hide-scrollbar sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-6 sm:pb-0">
       {projects.map((project, index) => (
-        <ProjectCard key={index} {...project} />
+        <div 
+          key={index} 
+          className="min-w-full snap-center px-4 sm:min-w-0 sm:px-0"
+        >
+          <ProjectCard {...project} />
+        </div>
       ))}
     </div>
   );
