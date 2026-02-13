@@ -21,7 +21,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${lato.variable} ${lato.className} antialiased`}>
+            <body
+    className={`${lato.variable} ${lato.className} antialiased bg-background text-primary-text`}
+>
                 {children}
             </body>
         </html>

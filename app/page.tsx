@@ -7,14 +7,14 @@ import SkillGroup from "@/components/skills/SkillGroup";
 import About from "@/components/Sections/About";
 
 export default function Home() {
-    return (
-        <div className="min-h-screen bg-background text-primary-text"> {/* Overall page background and text color */}
-            <Header />
-            <Hero />
-            <About />
-            <SkillGroup />
-            <Projects />
-            <Footer />
-        </div>
-    );
+  return (
+    <main>
+      <Header />
+      <Hero />
+      <About />
+      <SkillGroup />
+      <Projects />
+      <Footer />
+    </main>
+  );
 }

@@ -9,7 +9,7 @@
 
   h1 {
     /* tracking-tighter matches the compressed look of the portfolio heading */
-    @apply text-7xl md:text-8xl font-black pt-2 pb-6 leading-[0.85] tracking-tighter;
+    @apply text-5xl md:text-8xl font-black pt-2 pb-6 leading-[0.85] tracking-tighter;
   }
 
   h2 {
@@ -25,14 +25,25 @@
   }
 }
 
+@layer utilities {
+  .page-container {
+    @apply w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+}
+
 @layer components {
   /* The Base Template */
   .btn-base {
     @apply inline-flex items-center justify-center 
-           min-w-[200px] px-8 py-2 
-           text-lg font-bold rounded-xl 
+           px-6 py-2 
+           text-base font-bold rounded-xl 
            transition-all duration-200 
-           active:scale-95 shadow-sm;
+           active:scale-95 shadow-sm
+           sm:px-8 sm:text-lg;
   }
 
   /* Your "Active" / Pink State */
