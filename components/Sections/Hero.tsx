@@ -40,7 +40,7 @@ export default function Hero() {
             topRight
             bottomLeft
             bottomRight
-            className="w-80 h-80 md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px]"
+            className="w-80 h-80 md:w-[28.125rem] md:h-[28.125rem] lg:w-[31.25rem] lg:h-[31.25rem]"
           />
         </div>
       </div>

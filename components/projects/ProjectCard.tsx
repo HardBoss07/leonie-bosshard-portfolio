@@ -27,7 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           className="transition-transform duration-300 hover:scale-105"
         />
       </div>
-      <div className="p-4 h-[70px] flex flex-col justify-center">
+      <div className="p-4 h-[4.375rem] flex flex-col justify-center">
         <div className="flex justify-between items-center">
           <h3 className="text-lg font-bold text-primary-text truncate">
             {name}

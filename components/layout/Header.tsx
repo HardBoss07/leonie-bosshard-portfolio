@@ -25,7 +25,7 @@ const Header = () => {
         aria-label="Toggle menu"
         aria-expanded={isMobileMenuOpen}
       >
-        <div className="relative w-6 h-[18px]">
+        <div className="relative w-6 h-[1.125rem]">
           <span
             className={`absolute left-0 h-0.5 w-full bg-primary-text rounded-sm transition-all duration-300 ease-in-out
                         ${isMobileMenuOpen ? "top-2 rotate-[135deg]" : "top-0"}`}
@@ -91,7 +91,7 @@ const Header = () => {
         </ul>
       </nav>
 
-      <div className="w-[120px] hidden md:block"></div>
+      <div className="w-[7.5rem] hidden md:block"></div>
 
       <div
         className={`fixed inset-0 bg-background/95 backdrop-blur-xl z-50 flex flex-col justify-center items-center transition-transform duration-500 cubic-bezier(0.77,0,0.175,1) md:hidden

@@ -68,7 +68,7 @@ const SkillIndicator: React.FC<SkillIndicatorComponentProps> = ({
           {IconComponent ? (
             <IconComponent className="w-8 h-8 text-primary-text" />
           ) : (
-            <span className="text-white text-[10px] uppercase">Icon</span>
+            <span className="text-white text-[0.625rem] uppercase">Icon</span>
           )}
         </div>
       </div>
