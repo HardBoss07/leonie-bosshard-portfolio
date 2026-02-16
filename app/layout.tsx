@@ -22,14 +22,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">^
-      <Header />
+    <html lang="en">
       <body
         className={`${lato.variable} ${lato.className} antialiased bg-background text-primary-text`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
-      <Footer />
     </html>
   );
 }
