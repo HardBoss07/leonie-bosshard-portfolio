@@ -11,13 +11,13 @@ export const projects: ProjectCardProps[] = [
         url: `${s}bubbl`,
     },
     {
-        coverImage: `${IP[5]}product_photography_1_3078x4096.jpg`,
+        coverImage: `${IP[5]}product_photography_1_3078x4096.png`,
         name: "Product Photography",
         category: "Photography",
         url: `${s}product-photography`,
     },
     {
-        coverImage: `${IP[4]}portrait_photography_1_1397x1397.jpg`,
+        coverImage: `${IP[4]}portrait_photography_1_2296x2296.png`,
         name: "Portrait Photography",
         category: "Photography",
         url: `${s}portrait-photography`,
@@ -29,13 +29,13 @@ export const projects: ProjectCardProps[] = [
         url: `${s}graphic-design`,
     },
     {
-        coverImage: `${IP[3]}independent_photography_1_1066x1600.jpg`,
+        coverImage: `${IP[3]}independent_photography_1_1066x1600.png`,
         name: "Independent Photography",
         category: "Photography",
         url: `${s}independent-photography`,
     },
     {
-        coverImage: `${IP[9]}redent_kit_1_4096x2731.jpg`,
+        coverImage: `${IP[9]}redent_kit_1_4096x2731.png`,
         name: "Re:Dent Kit",
         category: "Analog Design",
         url: `${s}redent-kit`,
@@ -49,7 +49,7 @@ export const projects: ProjectCardProps[] = [
     },
 
     {
-        coverImage: `${IP[6]}kaos_komplett_1_2048x1365.jpg`,
+        coverImage: `${IP[6]}kaos_komplett_1_2048x1365.png`,
         name: "Kaos Komplett",
         category: "Analog Design",
         url: `${s}kaos-komplett`,
