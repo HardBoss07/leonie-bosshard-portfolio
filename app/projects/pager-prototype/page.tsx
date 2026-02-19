@@ -17,7 +17,7 @@ const PagerPrototype = () => {
             UI / UX Design
           </h1>
           <h2 className="text-primary-accent text-4xl font-bold mb-6">
-            Pager Prototype
+            Pager Prototyp
           </h2>
 
           <div className="text-justify max-w-4xl flex flex-col gap-4 text-lg leading-relaxed">
@@ -50,7 +50,7 @@ const PagerPrototype = () => {
           </div>
 
           <h2 className="text-primary-accent text-4xl font-bold mt-16 mb-10">
-            Results:
+            Resultate:
           </h2>
           <ImageDisplay imageURLs={imageURLs} altText="Product Photograph" />
         </div>

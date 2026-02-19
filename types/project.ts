@@ -1,8 +1,8 @@
 export type ProjectCategory =
-  | "Graphic Design"
-  | "Photography"
+  | "Grafik Design"
+  | "Fotografie"
   | "UX / UI Design"
-  | "Analog Design";
+  | "Analoges Design";
 
 export interface ProjectCardProps {
   coverImage: string; // path relative to public or imported image

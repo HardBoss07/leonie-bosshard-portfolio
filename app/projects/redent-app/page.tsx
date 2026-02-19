@@ -18,7 +18,7 @@ const ReDentApp = () => {
       <div className="page-container flex flex-col items-center justify-between gap-12">
         <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent">
-            UX / UI Interface
+            UX / UI Design
           </h1>
           <h2 className="text-primary-accent text-4xl font-bold mb-6">
             Re:Dent App
@@ -56,7 +56,7 @@ const ReDentApp = () => {
           </div>
 
           <h2 className="text-primary-accent text-4xl font-bold mt-16 mb-10">
-            Results:
+            Resultate:
           </h2>
 
           <ImageDisplay imageURLs={imageURLs} altText="Re:Dent App Image" />

@@ -1,7 +1,7 @@
 import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
 
-const IndependentPhotography = () => {
+const IndependentFotografie = () => {
   const imageURLs: string[] = [
     `${IP[3]}independent_photography_1_1066x1600.png`,
     `${IP[3]}independent_photography_2_2731x4096.png`,
@@ -16,10 +16,10 @@ const IndependentPhotography = () => {
       <div className="page-container flex flex-col items-center justify-between gap-12">
         <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent">
-            Photography
+            Fotografie
           </h1>
           <h2 className="text-primary-accent text-4xl font-bold mb-6">
-            Independent Photography
+            Freie fotografische Arbeiten
           </h2>
 
           <div className="text-justify max-w-4xl flex flex-col gap-4 text-lg leading-relaxed">
@@ -56,7 +56,7 @@ const IndependentPhotography = () => {
           </div>
 
           <h2 className="text-primary-accent text-4xl font-bold mt-16 mb-10">
-            Results:
+            Resultate:
           </h2>
           <ImageDisplay
             imageURLs={imageURLs}
@@ -68,4 +68,4 @@ const IndependentPhotography = () => {
   );
 };
 
-export default IndependentPhotography;
+export default IndependentFotografie;

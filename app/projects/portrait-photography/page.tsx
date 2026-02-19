@@ -1,7 +1,7 @@
 import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
 
-const PortraitPhotography = () => {
+const PortraitFotografie = () => {
   const imageURLs: string[] = [
     `${IP[4]}portrait_photography_1_2296x2296.png`,
     `${IP[4]}portrait_photography_2_2296x2296.png`,
@@ -15,10 +15,10 @@ const PortraitPhotography = () => {
       <div className="page-container flex flex-col items-center justify-between gap-12">
         <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent">
-            Photography
+            Fotografie
           </h1>
           <h2 className="text-primary-accent text-4xl font-bold mb-6">
-            Portrait Photography
+            Portraitfotograpfie
           </h2>
 
           <div className="text-justify max-w-4xl flex flex-col gap-4 text-lg leading-relaxed">
@@ -55,7 +55,7 @@ const PortraitPhotography = () => {
           </div>
 
           <h2 className="text-primary-accent text-4xl font-bold mt-16 mb-10">
-            Results:
+            Resultate:
           </h2>
           <ImageDisplay imageURLs={imageURLs} altText="Portrait Photograph" />
         </div>
@@ -64,4 +64,4 @@ const PortraitPhotography = () => {
   );
 };
 
-export default PortraitPhotography;
+export default PortraitFotografie;
