@@ -1,5 +1,7 @@
 import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
+import VisualIdentity from "@/components/UI/projects/VisualIdentity";
+import { Promise } from "@/components/UI/projects/Promise";
 
 const Bubbl = () => {
   const imageURLs: string[] = [
@@ -9,6 +11,14 @@ const Bubbl = () => {
     `${IP[0]}bubbl_4_3400x3200.png`,
     `${IP[0]}bubbl_5_4000x4000.png`,
     `${IP[0]}bubbl_6_4000x4000.png`,
+  ];
+
+  const colorPalette = [
+    { hex: "#FAF7F2", name: "Alabaster" },
+    { hex: "#F3E3A1", name: "Wheat" },
+    { hex: "#BFD9E8", name: "Sky Blue" },
+    { hex: "#F28C8C", name: "Soft Coral" },
+    { hex: "#5A3A2E", name: "Deep Earth" },
   ];
 
   return (
@@ -23,6 +33,7 @@ const Bubbl = () => {
             Tagline: Bubbles, but better.
           </p>
         </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full text-justify lg:text-left">
           <div className="flex flex-col gap-8">
             <div>
@@ -33,6 +44,7 @@ const Bubbl = () => {
                 visually fresh, it turns every sip into a joyful moment.
               </p>
             </div>
+
             <div>
               <h3 className="text-2xl font-bold mb-4 border-b pb-2">
                 Personality
@@ -43,6 +55,7 @@ const Bubbl = () => {
                 <li>Friendly, rounded, modern</li>
               </ul>
             </div>
+
             <div>
               <h3 className="text-2xl font-bold mb-4 border-b pb-2">
                 Audience
@@ -54,51 +67,10 @@ const Bubbl = () => {
               </ul>
             </div>
           </div>
+
           <div className="flex flex-col gap-8">
-            <div>
-              <h3 className="text-2xl font-bold mb-4 border-b pb-2">
-                Visual Identity
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-                <div className="flex flex-col items-center gap-2">
-                  <div
-                    className="w-full h-12 rounded-md shadow-sm border border-white/10"
-                    style={{ backgroundColor: "#FAF7F2" }}
-                  ></div>
-                  <span className="text-xs font-mono">#FAF7F2</span>
-                </div>
-                <div className="flex flex-col items-center gap-2">
-                  <div
-                    className="w-full h-12 rounded-md shadow-sm border border-white/10"
-                    style={{ backgroundColor: "#F3E3A1" }}
-                  ></div>
-                  <span className="text-xs font-mono">#F3E3A1</span>
-                </div>
-                <div className="flex flex-col items-center gap-2">
-                  <div
-                    className="w-full h-12 rounded-md shadow-sm border border-white/10"
-                    style={{ backgroundColor: "#BFD9E8" }}
-                  ></div>
-                  <span className="text-xs font-mono">#BFD9E8</span>
-                </div>
-                <div className="flex flex-col items-center gap-2">
-                  <div
-                    className="w-full h-12 rounded-md shadow-sm border border-white/10"
-                    style={{ backgroundColor: "#F28C8C" }}
-                  ></div>
-                  <span className="text-xs font-mono">#F28C8C</span>
-                </div>
-                <div className="flex flex-col items-center gap-2">
-                  <div
-                    className="w-full h-12 rounded-md shadow-sm border border-white/10"
-                    style={{ backgroundColor: "#5A3A2E" }}
-                  ></div>
-                  <span className="text-xs font-mono text-[#5A3A2E]">
-                    #5A3A2E
-                  </span>
-                </div>
-              </div>
-            </div>
+            <VisualIdentity colors={colorPalette} />
+
             <div>
               <h3 className="text-2xl font-bold mb-4 border-b pb-2">System</h3>
               <p className="mb-4 font-semibold">
@@ -124,15 +96,15 @@ const Bubbl = () => {
             </div>
           </div>
         </div>
-        <div className="mt-12 w-full p-10 rounded-2xl border border-[#7A5A5A]/30 bg-[#7A5A5A]/5 backdrop-blur-sm text-center">
-          <h3 className="text-sm font-bold mb-4 uppercase tracking-[0.3em] text-[#F28C8C]">
-            The Promise
-          </h3>
-          <p className="text-3xl md:text-4xl font-medium text-[#FAF7F2] leading-relaxed">
-            Gentle care, playful touch — <br className="hidden md:block" />
-            <span className="text-[#F3E3A1]">bubbles made better.</span>
-          </p>
-        </div>
+
+        <Promise
+          prefix="Gentle care, playful touch —"
+          suffix="bubbles made better."
+          textColor="#FAF7F2"
+          accentColor="#F28C8C"
+          highlightColor="#F3E3A1"
+        />
+
         <ImageDisplay imageURLs={imageURLs} altText="bubbl Brand Image" />
       </div>
     </section>

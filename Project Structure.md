@@ -34,6 +34,11 @@ leonie-bosshard-portfolio/
 │   │   ├── Hero.tsx
 │   │   └── Projects.tsx
 │   ├── UI/
+│   │   ├── projects/
+│   │   │   ├── ColorSwatch.tsx
+│   │   │   ├── ImageDisplay.tsx
+│   │   │   ├── Promise.tsx
+│   │   │   └── VisualIdentity.tsx
 │   │   ├── ButtonComponent.tsx
 │   │   ├── Headshot.tsx
 │   │   └── TestIcon.tsx
@@ -129,6 +134,8 @@ leonie-bosshard-portfolio/
 │       ├── example.png
 │       └── headshot.png
 ├── types/
+│   ├── projects/
+│   │   └── imageDisplay.ts
 │   ├── headshot.ts
 │   ├── imagePrefix.ts
 │   ├── project.ts
