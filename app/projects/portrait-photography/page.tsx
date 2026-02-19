@@ -1,66 +1,67 @@
-import Image from "next/image";
 import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
+import ImageDisplay from "@/components/UI/projects/ImageDisplay";
 
 const PortraitPhotography = () => {
-    const imageURLs: string[] = [
-        `${IP[4]}portrait_photography_1_2296x2296.png`,
-        `${IP[4]}portrait_photography_2_2296x2296.png`,
-        `${IP[4]}portrait_photography_3_3843x2702.png`,
-        `${IP[4]}portrait_photography_4_3543x4292.png`,
-        `${IP[4]}portrait_photography_5_3170x4795.png`,
-    ];
+  const imageURLs: string[] = [
+    `${IP[4]}portrait_photography_1_2296x2296.png`,
+    `${IP[4]}portrait_photography_2_2296x2296.png`,
+    `${IP[4]}portrait_photography_3_3843x2702.png`,
+    `${IP[4]}portrait_photography_4_3543x4292.png`,
+    `${IP[4]}portrait_photography_5_3170x4795.png`,
+  ];
 
-    return (
-        <section className="section-padding flex items-center min-h-screen py-20">
-            <div className="page-container flex flex-col items-center justify-between gap-12">
-                <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
-                    <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent">
-                        Photography
-                    </h1>
-                    <h2 className="text-primary-accent text-4xl font-bold mb-6">
-                        Portrait Photography
-                    </h2>
+  return (
+    <section className="section-padding flex items-center min-h-screen py-20">
+      <div className="page-container flex flex-col items-center justify-between gap-12">
+        <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
+          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent">
+            Photography
+          </h1>
+          <h2 className="text-primary-accent text-4xl font-bold mb-6">
+            Portrait Photography
+          </h2>
 
-                    <div className="text-justify max-w-4xl flex flex-col gap-4 text-lg leading-relaxed">
-                        <p>
-                            Die Portraitfotografien entstanden mit dem Ziel, die Persönlichkeit und Individualität der dargestellten Personen authentisch und ästhetisch festzuhalten. Dabei wurde sowohl mit Licht und Farben experimentiert als auch bewusst auf schlichte, klassische Portraits im Freien gesetzt, die durch Natürlichkeit und Ruhe überzeugen.
-                        </p>
-                        <p>
-                            Durch den Einsatz von farbigem Kunstlicht im Studio sowie natürlichem Tageslicht im Außenbereich entstanden unterschiedliche Stimmungen und Bildwirkungen. Intensive Farbkontraste erzeugen ausdrucksstarke, moderne Aufnahmen, während weiches Sonnenlicht und reduzierte Kompositionen zeitlose und unaufdringliche Portraits ermöglichen.
-                        </p>
-                        <p>
-                            Die Wahl der Locations und Hintergründe erfolgte gezielt, um die jeweilige Person zu unterstützen, ohne von ihr abzulenken. Architektur, Landschaft und urbane Elemente wurden bewusst in die Gestaltung einbezogen und verleihen den Bildern Tiefe und Kontext. Der Fokus liegt dabei stets auf dem Gesichtsausdruck und der Körpersprache.
-                        </p>
-                        <p>
-                            Ziel der Aufnahmen war es, vielseitige und authentische Portraits zu schaffen, die sowohl experimentelle als auch klassische Ansätze verbinden und den individuellen Charakter der Personen sichtbar machen.
-                        </p>
-                    </div>
+          <div className="text-justify max-w-4xl flex flex-col gap-4 text-lg leading-relaxed">
+            <p>
+              Die Portraitfotografien entstanden mit dem Ziel, die
+              Persönlichkeit und Individualität der dargestellten Personen
+              authentisch und ästhetisch festzuhalten. Dabei wurde sowohl mit
+              Licht und Farben experimentiert als auch bewusst auf schlichte,
+              klassische Portraits im Freien gesetzt, die durch Natürlichkeit
+              und Ruhe überzeugen.
+            </p>
+            <p>
+              Durch den Einsatz von farbigem Kunstlicht im Studio sowie
+              natürlichem Tageslicht im Außenbereich entstanden unterschiedliche
+              Stimmungen und Bildwirkungen. Intensive Farbkontraste erzeugen
+              ausdrucksstarke, moderne Aufnahmen, während weiches Sonnenlicht
+              und reduzierte Kompositionen zeitlose und unaufdringliche
+              Portraits ermöglichen.
+            </p>
+            <p>
+              Die Wahl der Locations und Hintergründe erfolgte gezielt, um die
+              jeweilige Person zu unterstützen, ohne von ihr abzulenken.
+              Architektur, Landschaft und urbane Elemente wurden bewusst in die
+              Gestaltung einbezogen und verleihen den Bildern Tiefe und Kontext.
+              Der Fokus liegt dabei stets auf dem Gesichtsausdruck und der
+              Körpersprache.
+            </p>
+            <p>
+              Ziel der Aufnahmen war es, vielseitige und authentische Portraits
+              zu schaffen, die sowohl experimentelle als auch klassische Ansätze
+              verbinden und den individuellen Charakter der Personen sichtbar
+              machen.
+            </p>
+          </div>
 
-                    <h2 className="text-primary-accent text-4xl font-bold mt-16 mb-10">
-                        Results:
-                    </h2>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
-                        {imageURLs.map((url, index) => (
-                            <div
-                                key={url}
-                                className="relative w-full aspect-[842/1191] overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-[1.02]"
-                            >
-                                <Image
-                                    src={url}
-                                    alt={`Portrait Photograph ${index + 1}`}
-                                    fill
-                                    priority={index === 0}
-                                    className="object-cover"
-                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                />
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
+          <h2 className="text-primary-accent text-4xl font-bold mt-16 mb-10">
+            Results:
+          </h2>
+          <ImageDisplay imageURLs={imageURLs} altText="Portrait Photograph" />
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default PortraitPhotography;

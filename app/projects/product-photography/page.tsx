@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
+import ImageDisplay from "@/components/UI/projects/ImageDisplay";
 
 const ProductPhotography = () => {
     const imageURLs: string[] = [
@@ -38,23 +38,7 @@ const ProductPhotography = () => {
                         Results:
                     </h2>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
-                        {imageURLs.map((url, index) => (
-                            <div
-                                key={url}
-                                className="relative w-full aspect-[842/1191] overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-[1.02]"
-                            >
-                                <Image
-                                    src={url}
-                                    alt={`Product Photograph ${index + 1}`}
-                                    fill
-                                    priority={index === 0}
-                                    className="object-cover"
-                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                />
-                            </div>
-                        ))}
-                    </div>
+                    <ImageDisplay imageURLs={imageURLs} altText="Product Photography"/>
                 </div>
             </div>
         </section>
