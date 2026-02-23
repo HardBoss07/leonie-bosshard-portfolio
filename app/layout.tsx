@@ -13,7 +13,8 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: "Portfolio | Leonie Bosshard",
-  description: "Leonie Bosshard - Professionelle Fotografin und UI/UX-Designerin mit Leidenschaft für kreative Projekte und innovative Lösungen.",
+  description:
+    "Leonie Bosshard - Professionelle Fotografin und UI/UX-Designerin mit Leidenschaft für kreative Projekte und innovative Lösungen.",
 };
 
 export default function RootLayout({
