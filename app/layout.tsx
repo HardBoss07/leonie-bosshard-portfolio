@@ -13,7 +13,7 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: "Portfolio | Leonie Bosshard",
-  description: "Portfolio for the UI/UX Designer Leonie Bosshard",
+  description: "Leonie Bosshard - Professionelle Fotografin und UI/UX-Designerin mit Leidenschaft für kreative Projekte und innovative Lösungen.",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body
         className={`${lato.variable} ${lato.className} antialiased bg-background text-primary-text`}
       >
