@@ -41,6 +41,12 @@
   .section-padding {
     @apply py-16 sm:py-20 lg:py-24;
   }
+
+  .text-center-no-justify {
+    text-align: center !important;
+    text-justify: none !important;
+    hyphens: none !important;
+  }
 }
 
 @layer components {

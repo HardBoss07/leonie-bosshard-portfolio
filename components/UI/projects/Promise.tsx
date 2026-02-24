@@ -22,7 +22,7 @@ export const Promise = ({
         The Promise
       </h3>
       <p
-        className="text-3xl md:text-4xl font-medium leading-relaxed"
+        className="text-center-no-justify text-3xl md:text-4xl font-medium leading-relaxed"
         style={{ color: textColor }}
       >
         {prefix} <br className="hidden md:block" />
