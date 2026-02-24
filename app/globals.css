@@ -7,6 +7,14 @@
     @apply bg-background text-primary-text font-medium;
   }
 
+  p {
+    @apply text-justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+  }
+
   h1 {
     /* tracking-tighter matches the compressed look of the portfolio heading */
     @apply text-5xl md:text-8xl font-black pt-2 pb-6 leading-[0.85] tracking-tighter;
