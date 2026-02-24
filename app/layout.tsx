@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   title: "Portfolio | Leonie Bosshard",
   description:
     "Leonie Bosshard - Professionelle Fotografin und UI/UX-Designerin mit Leidenschaft für kreative Projekte und innovative Lösungen.",
+  icons: {
+    icon: "/icons/logo-zoom.svg",
+  }
 };
 
 export default function RootLayout({
