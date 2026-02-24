@@ -4,25 +4,13 @@
 leonie-bosshard-portfolio/
 ├── app/
 │   ├── projects/
-│   │   ├── bubbl/
+│   │   ├── analog-projects/
 │   │   │   └── page.tsx
 │   │   ├── graphic-design/
 │   │   │   └── page.tsx
-│   │   ├── independent-photography/
+│   │   ├── photography/
 │   │   │   └── page.tsx
-│   │   ├── kaos-komplett/
-│   │   │   └── page.tsx
-│   │   ├── mora/
-│   │   │   └── page.tsx
-│   │   ├── pager-prototype/
-│   │   │   └── page.tsx
-│   │   ├── portrait-photography/
-│   │   │   └── page.tsx
-│   │   ├── product-photography/
-│   │   │   └── page.tsx
-│   │   ├── redent-app/
-│   │   │   └── page.tsx
-│   │   └── redent-kit/
+│   │   └── ui-ux-interface/
 │   │       └── page.tsx
 │   ├── globals.css
 │   ├── layout.tsx
@@ -47,12 +35,12 @@ leonie-bosshard-portfolio/
 │   ├── projects/
 │   │   ├── different-projects/
 │   │   │   ├── Bubbl.tsx
-│   │   │   ├── GraphicDesign.tsx
 │   │   │   ├── IndependentPhotography.tsx
 │   │   │   ├── KaosKomplett.tsx
 │   │   │   ├── Mora.tsx
 │   │   │   ├── PagerPrototype.tsx
 │   │   │   ├── PortraitPhotography.tsx
+│   │   │   ├── Posters.tsx
 │   │   │   ├── ProductPhotography.tsx
 │   │   │   ├── ReDentApp.tsx
 │   │   │   └── ReDentKit.tsx
