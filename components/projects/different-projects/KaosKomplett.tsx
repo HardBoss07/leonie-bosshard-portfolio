@@ -13,9 +13,6 @@ const KaosKomplett = () => {
     <section id="kaos-komplett" className="section-padding flex items-center min-h-screen py-20">
       <div className="page-container flex flex-col items-center justify-between gap-12">
         <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent">
-            Analoges Design
-          </h1>
           <h2 className="text-primary-accent text-4xl font-bold mb-6">
             Kaos Komplett
           </h2>
