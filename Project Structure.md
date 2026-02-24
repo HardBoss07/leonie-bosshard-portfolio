@@ -24,7 +24,6 @@ leonie-bosshard-portfolio/
 │   │   │   └── page.tsx
 │   │   └── redent-kit/
 │   │       └── page.tsx
-│   ├── favicon.ico
 │   ├── globals.css
 │   ├── layout.tsx
 │   └── page.tsx
@@ -46,6 +45,17 @@ leonie-bosshard-portfolio/
 │   │   ├── Footer.tsx
 │   │   └── Header.tsx
 │   ├── projects/
+│   │   ├── different-projects/
+│   │   │   ├── Bubbl.tsx
+│   │   │   ├── GraphicDesign.tsx
+│   │   │   ├── IndependentPhotography.tsx
+│   │   │   ├── KaosKomplett.tsx
+│   │   │   ├── Mora.tsx
+│   │   │   ├── PagerPrototype.tsx
+│   │   │   ├── PortraitPhotography.tsx
+│   │   │   ├── ProductPhotography.tsx
+│   │   │   ├── ReDentApp.tsx
+│   │   │   └── ReDentKit.tsx
 │   │   ├── CategoryFilter.tsx
 │   │   ├── ProjectCard.tsx
 │   │   ├── ProjectGrid.tsx
@@ -67,6 +77,7 @@ leonie-bosshard-portfolio/
 ├── public/
 │   ├── icons/
 │   │   ├── AdobePremiere.svg
+│   │   ├── logo-zoom.svg
 │   │   └── logo.svg
 │   └── images/
 │       ├── projects/
@@ -109,7 +120,7 @@ leonie-bosshard-portfolio/
 │       │   │   ├── portrait_photography_1_2296x2296.png
 │       │   │   ├── portrait_photography_2_2296x2296.png
 │       │   │   ├── portrait_photography_3_3843x2702.png
-│       │   │   ├── portrait_photography_4_3543x4292.png
+│       │   │   ├── portrait_photography_4_2873x3370.png
 │       │   │   └── portrait_photography_5_3170x4795.png
 │       │   ├── product-photography/
 │       │   │   ├── product_photography_1_3078x4096.png
