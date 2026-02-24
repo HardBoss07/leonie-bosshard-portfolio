@@ -6,7 +6,7 @@ const PortraitFotografie = () => {
     `${IP[4]}portrait_photography_1_2296x2296.png`,
     `${IP[4]}portrait_photography_2_2296x2296.png`,
     `${IP[4]}portrait_photography_3_3843x2702.png`,
-    `${IP[4]}portrait_photography_4_3543x4292.png`,
+    `${IP[4]}portrait_photography_4_2873x3370.png`,
     `${IP[4]}portrait_photography_5_3170x4795.png`,
   ];
 
