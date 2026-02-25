@@ -22,12 +22,16 @@ leonie-bosshard-portfolio/
 │   │   └── Projects.tsx
 │   ├── UI/
 │   │   ├── projects/
-│   │   │   ├── ColorSwatch.tsx
+│   │   │   ├── brand-concept/
+│   │   │   │   ├── ColorSwatch.tsx
+│   │   │   │   ├── Essence.tsx
+│   │   │   │   ├── List.tsx
+│   │   │   │   ├── Promise.tsx
+│   │   │   │   ├── System.tsx
+│   │   │   │   └── VisualIdentity.tsx
 │   │   │   ├── ImageDisplay.tsx
 │   │   │   ├── MultiplePosters.tsx
-│   │   │   ├── Poster.tsx
-│   │   │   ├── Promise.tsx
-│   │   │   └── VisualIdentity.tsx
+│   │   │   └── Poster.tsx
 │   │   ├── ButtonComponent.tsx
 │   │   ├── Headshot.tsx
 │   │   ├── PortraitMosiac.tsx
@@ -133,7 +137,7 @@ leonie-bosshard-portfolio/
 │       │       ├── redent_kit_3_4096x4064.png
 │       │       ├── redent_kit_4_4096x2731.png
 │       │       ├── redent_kit_5_1900x1900.png
-│       │       └── redent_kit_6_4096x2731.png
+│       │       └── redent_kit_6_2731x2731.png
 │       ├── example.png
 │       └── headshot.png
 ├── types/

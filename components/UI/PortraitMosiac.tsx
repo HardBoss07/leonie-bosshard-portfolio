@@ -37,7 +37,6 @@ const images = [
 export default function PortraitMosaic() {
   return (
     <div className="flex flex-col gap-4 w-full max-w-5xl mx-auto p-4">
-      {/* Row 1: Two equal columns */}
       <div className="grid grid-cols-2 gap-4">
         <div className="relative aspect-square overflow-hidden">
           <Image
@@ -57,7 +56,6 @@ export default function PortraitMosaic() {
         </div>
       </div>
 
-      {/* Row 2: One wide image */}
       <div
         className="relative w-full overflow-hiddeng"
         style={{ aspectRatio: `${images[2].w} / ${images[2].h}` }}
@@ -70,9 +68,7 @@ export default function PortraitMosaic() {
         />
       </div>
 
-      {/* Row 3: Matching height, Dynamic width */}
       <div className="flex gap-4 w-full">
-        {/* Image 4 */}
         <div
           className="relative overflow-hiddeng"
           style={{
@@ -88,7 +84,6 @@ export default function PortraitMosaic() {
           />
         </div>
 
-        {/* Image 5 */}
         <div
           className="relative overflow-hiddeng"
           style={{
