@@ -9,7 +9,7 @@ const MultiplePosters = () => {
   ];
 
   return (
-    <div className="p-8 m-4">
+    <div className="">
       <Poster
         url={imageURLs[2]}
         title="Resonanz"
