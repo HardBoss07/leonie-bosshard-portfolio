@@ -2,17 +2,12 @@ import PortraitMosaic from "@/components/UI/PortraitMosiac";
 
 const PortraitPhotography = () => {
   return (
-    <section
-      id="portrait-photography"
-      className="section-padding flex items-center min-h-screen py-20"
-    >
-      <div className="page-container flex flex-col items-center justify-between gap-12">
-        <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
-          <h2 className="text-primary-accent text-4xl font-bold mb-6">
-            Portraitfotograpfie
-          </h2>
+    <section id="portrait-photography">
+      <div className="project-container">
+        <div className="page-content">
+          <h2> Portraitfotograpfie</h2>
 
-          <div className="text-justify max-w-4xl flex flex-col gap-4 text-lg leading-relaxed">
+          <div className="project-text">
             <p>
               Die Portraitfotografien entstanden mit dem Ziel, die
               Persönlichkeit und Individualität der dargestellten Personen
@@ -45,9 +40,7 @@ const PortraitPhotography = () => {
             </p>
           </div>
 
-          <h2 className="text-primary-accent text-4xl font-bold mt-16 mb-10">
-            Resultate:
-          </h2>
+          <h2>Resultate:</h2>
 
           <PortraitMosaic />
         </div>

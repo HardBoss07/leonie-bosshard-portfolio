@@ -31,11 +31,35 @@
   h4 {
     @apply text-xl text-[#656565];
   }
+
+  section {
+    @apply section-padding flex flex-col items-center min-h-screen py-20;
+  }
 }
 
 @layer utilities {
   .page-container {
     @apply w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .page-content {
+    @apply flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start;
+  }
+
+  .project-container {
+    @apply page-container flex flex-col items-center justify-between gap-1;
+  }
+
+  .project-container h1 {
+    @apply text-5xl md:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent;
+  }
+
+  .project-container h2 {
+    @apply text-primary-accent text-4xl font-bold mb-6;
+  }
+
+  .project-text {
+    @apply text-justify max-w-4xl flex flex-col gap-4 text-lg leading-relaxed;
   }
 
   .section-padding {

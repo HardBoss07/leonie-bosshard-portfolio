@@ -22,10 +22,10 @@ const Bubbl = () => {
   ];
 
   return (
-    <section id="bubbl" className="section-padding flex flex-col items-center min-h-screen py-20">
-      <div className="page-container w-full flex flex-col gap-12">
-        <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
-          <h2 className="text-primary-accent text-4xl font-bold mb-2">bubbl</h2>
+    <section id="bubbl">
+      <div className="project-container">
+        <div className="page-content">
+          <h2>bubbl</h2>
           <p className="text-xl italic text-gray-600 mb-10">
             Tagline: Bubbles, but better.
           </p>

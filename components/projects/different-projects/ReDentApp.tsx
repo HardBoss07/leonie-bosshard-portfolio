@@ -14,17 +14,13 @@ const ReDentApp = () => {
   ];
 
   return (
-    <section id="redent-app" className="section-padding flex items-center min-h-screen py-20">
-      <div className="page-container flex flex-col items-center justify-between gap-12">
-        <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent">
-            UX / UI Interface
-          </h1>
-          <h2 className="text-primary-accent text-4xl font-bold mb-6">
-            Re:Dent App
-          </h2>
+    <section id="redent-app">
+      <div className="project-container">
+        <div className="page-content">
+          <h1>UX / UI Interface</h1>
+          <h2>Re:Dent App</h2>
 
-          <div className="text-justify max-w-4xl flex flex-col gap-4 text-lg leading-relaxed">
+          <div className="project-text">
             <p>
               Die App entstand im Fach Eco Design und erweitert unser Konzept
               der regenerativen Mundhygiene um eine digitale Anwendung für die
@@ -55,9 +51,7 @@ const ReDentApp = () => {
             </p>
           </div>
 
-          <h2 className="text-primary-accent text-4xl font-bold mt-16 mb-10">
-            Resultate:
-          </h2>
+          <h2>Resultate:</h2>
 
           <ImageDisplay imageURLs={imageURLs} altText="Re:Dent App Image" />
         </div>

@@ -24,10 +24,14 @@ leonie-bosshard-portfolio/
 │   │   ├── projects/
 │   │   │   ├── ColorSwatch.tsx
 │   │   │   ├── ImageDisplay.tsx
+│   │   │   ├── MultiplePosters.tsx
+│   │   │   ├── Poster.tsx
 │   │   │   ├── Promise.tsx
 │   │   │   └── VisualIdentity.tsx
 │   │   ├── ButtonComponent.tsx
 │   │   ├── Headshot.tsx
+│   │   ├── PortraitMosiac.tsx
+│   │   ├── ReDentKitImages.tsx
 │   │   └── TestIcon.tsx
 │   ├── layout/
 │   │   ├── Footer.tsx
@@ -128,13 +132,14 @@ leonie-bosshard-portfolio/
 │       │       ├── redent_kit_2_4096x2725.png
 │       │       ├── redent_kit_3_4096x4064.png
 │       │       ├── redent_kit_4_4096x2731.png
-│       │       ├── redent_kit_5_4096x2731.png
+│       │       ├── redent_kit_5_1900x1900.png
 │       │       └── redent_kit_6_4096x2731.png
 │       ├── example.png
 │       └── headshot.png
 ├── types/
 │   ├── projects/
-│   │   └── imageDisplay.ts
+│   │   ├── imageDisplay.ts
+│   │   └── posterDisplay.ts
 │   ├── headshot.ts
 │   ├── imagePrefix.ts
 │   ├── project.ts
