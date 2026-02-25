@@ -1,18 +1,11 @@
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
-import ImageDisplay from "@/components/UI/projects/ImageDisplay";
+import ReDentKitImages from "@/components/UI/ReDentKitImages";
 
 const ReDentKit = () => {
-  const imageURLs: string[] = [
-    `${IP[9]}redent_kit_1_4096x2731.png`,
-    `${IP[9]}redent_kit_2_4096x2725.png`,
-    `${IP[9]}redent_kit_3_4096x4064.png`,
-    `${IP[9]}redent_kit_4_4096x2731.png`,
-    `${IP[9]}redent_kit_5_4096x2731.png`,
-    `${IP[9]}redent_kit_6_4096x2731.png`,
-  ];
-
   return (
-    <section id="redent-kit" className="section-padding flex items-center min-h-screen py-20">
+    <section
+      id="redent-kit"
+      className="section-padding flex items-center min-h-screen py-20"
+    >
       <div className="page-container flex flex-col items-center justify-between gap-12">
         <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent">
@@ -64,7 +57,7 @@ const ReDentKit = () => {
             Resultate:
           </h2>
 
-          <ImageDisplay imageURLs={imageURLs} altText="Re:Dent Kit Image" />
+          <ReDentKitImages />
         </div>
       </div>
     </section>

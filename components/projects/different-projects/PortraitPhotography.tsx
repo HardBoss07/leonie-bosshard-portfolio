@@ -1,17 +1,11 @@
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
-import ImageDisplay from "@/components/UI/projects/ImageDisplay";
+import PortraitMosaic from "@/components/UI/PortraitMosiac";
 
 const PortraitPhotography = () => {
-  const imageURLs: string[] = [
-    `${IP[4]}portrait_photography_1_2296x2296.png`,
-    `${IP[4]}portrait_photography_2_2296x2296.png`,
-    `${IP[4]}portrait_photography_3_3843x2702.png`,
-    `${IP[4]}portrait_photography_4_2873x3370.png`,
-    `${IP[4]}portrait_photography_5_3170x4795.png`,
-  ];
-
   return (
-    <section id="portrait-photography" className="section-padding flex items-center min-h-screen py-20">
+    <section
+      id="portrait-photography"
+      className="section-padding flex items-center min-h-screen py-20"
+    >
       <div className="page-container flex flex-col items-center justify-between gap-12">
         <div className="flex flex-col gap-1 z-10 w-full text-center lg:text-left items-center lg:items-start">
           <h2 className="text-primary-accent text-4xl font-bold mb-6">
@@ -54,7 +48,8 @@ const PortraitPhotography = () => {
           <h2 className="text-primary-accent text-4xl font-bold mt-16 mb-10">
             Resultate:
           </h2>
-          <ImageDisplay imageURLs={imageURLs} altText="Portrait Photograph" />
+
+          <PortraitMosaic />
         </div>
       </div>
     </section>
