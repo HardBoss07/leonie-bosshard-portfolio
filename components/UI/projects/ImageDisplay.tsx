@@ -21,7 +21,7 @@ const ImageDisplay: React.FC<ImageDisplayComponentProps> = ({
       {imageURLs.map((url, index) => (
         <div
           key={url}
-          className="relative w-full aspect-[842/1191] overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-[1.02]"
+          className="relative w-full aspect-[842/1191] overflow-hidden shadow-2xl transition-transform hover:scale-[1.02]"
         >
           <Image
             src={url}
