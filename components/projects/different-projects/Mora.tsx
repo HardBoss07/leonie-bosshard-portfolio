@@ -1,7 +1,9 @@
 import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
-import VisualIdentity from "@/components/UI/projects/VisualIdentity";
-import { Promise } from "@/components/UI/projects/Promise";
+import { Promise } from "@/components/UI/projects/brand-concept/Promise";
+import List from "@/components/UI/projects/brand-concept/List";
+import System from "@/components/UI/projects/brand-concept/System";
+import Essence from "@/components/UI/projects/brand-concept/Essence";
 
 const Mora = () => {
   const imageURLs: string[] = [
@@ -33,65 +35,47 @@ const Mora = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full text-justify lg:text-left">
             <div className="flex flex-col gap-8">
-              <div>
-                <h3 className="text-2xl font-bold mb-4 border-b pb-2">
-                  Essence
-                </h3>
-                <p className="text-lg leading-relaxed">
-                  <strong>mora</strong> is a playful, modern personal care brand
-                  that&apos;s fun, gentle, and feel-good. Mild, nourishing, and
-                  visually soft, it turns every shower into a joyful moment.
-                </p>
-              </div>
+              <Essence
+                className="className=flex flex-col gap-8"
+                bold="mora"
+                text=" is a playful, modern personal care brand that's fun, gentle, and feel-good. Mild, nourishing, and visually soft, it turns every shower into a joyful moment."
+              />
 
-              <div>
-                <h3 className="text-2xl font-bold mb-4 border-b pb-2">
-                  Personality
-                </h3>
-                <ul className="list-disc list-inside space-y-2 text-lg text-primary-text/80">
-                  <li>Optimistic, light, approachable</li>
-                  <li>Playful, never preachy</li>
-                  <li>Friendly, rounded, modern</li>
-                </ul>
-              </div>
+              <List
+                title="Personality"
+                items={[
+                  "Optimistic, light, approachable",
+                  "Playful, never preachy",
+                  "Friendly, rounded, modern",
+                ]}
+              />
 
-              <div>
-                <h3 className="text-2xl font-bold mb-4 border-b pb-2">
-                  Audience
-                </h3>
-                <ul className="list-disc list-inside space-y-2 text-lg text-primary-text/80">
-                  <li>18-35, health-conscious, trend-savvy</li>
-                  <li>Pastel-loving, social media friendly</li>
-                  <li>Values clean, minimal, feel-good design</li>
-                </ul>
-              </div>
+              <List
+                title="Audience"
+                items={[
+                  "18-35, health-conscious, trend-savvy",
+                  "Pastel-loving, social media friendly",
+                  "Values clean, minimal, feel-good design",
+                ]}
+              />
             </div>
 
-            <div className="flex flex-col gap-8">
-              <VisualIdentity colors={colorPalette} />
-              <div>
-                <h3 className="text-2xl font-bold mb-4 border-b pb-2">
-                  System
-                </h3>
-                <p className="mb-4 font-semibold">
-                  Flavors instantly recognizable by color:
-                </p>
-                <ul className="space-y-3 text-lg">
-                  <li className="flex items-center gap-2">
-                    <span className="w-3 h-3 rounded-full bg-[#C7B6CF]"></span>
-                    Blackberry & Vanilla
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-3 h-3 rounded-full bg-[#E7BFC8]"></span>
-                    Raspberry & Hibiscus
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-3 h-3 rounded-full bg-[#F3A7B3]"></span>
-                    Cherry & Almond
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <System
+              description="Duft-/Sortenwelt sofort über Farbe erkennbar:"
+              items={[
+                {
+                  color: "#C7B6CF",
+                  label: "Blackberry & Vanilla - Pastel Purple",
+                },
+                {
+                  color: "#E7BFC8",
+                  label: "Raspberry & Hibiscus - Pastel Raspberry",
+                },
+                { color: "#F3A7B3", label: "Cherry & Almond - Pastel Cherry" },
+              ]}
+              footer="Namenssystem: Erst die Hauptnote (Flavor), dann eine verspielte zweite Note"
+              colorPalette={colorPalette}
+            />
           </div>
 
           <Promise
