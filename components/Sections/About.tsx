@@ -24,27 +24,30 @@ const About = () => {
           </div>
 
           <div className="flex flex-col gap-8 max-w-2xl">
-            <p className="text-lg text-neutral-300 leading-loose text-justify">
-              A software engineer, the modern-day architect of digital realms,
-              navigates the ethereal landscapes of code, sculpting intangible
-              structures that shape our technological world. With fingers poised
-              over keyboards like virtuoso pianists, they compose symphonies of
-              logic, their minds a labyrinth of algorithms and solutions. Their
-              canvas is a screen, a vast expanse where lines of code dance in
-              intricate patterns, weaving the fabric of programs and
-              applications. Each keystroke is a brushstroke, crafting intricate
-              architectures and breathing life into innovative designs. In this
-              digital atelier, they don the mantle of problem solvers,
-              confronting bugs and glitches like valiant knights in an ever-
-              evolving quest for perfection.
-            </p>
+            <div className="text-lg text-primary-text leading-loose text-justify">
+              <p>
+                Ich bin Intermedia-Studentin an der Fachhochschule Vorarlberg in Österreich mit einem besonderen Interesse an visueller Kommunikation und Gestaltung. Derzeit verbringe ich mein Auslandssemester an der University of Technology Sydney, wo ich neue Perspektiven sammle und meine gestalterischen Fähigkeiten in einem internationalen Umfeld weiterentwickle.
+              </p>
+              <p>
+                Neben meinem Studium arbeite ich als Fotografin und beschäftige mich intensiv damit, wie Bilder wirken und Geschichten vermitteln können.
+              </p>
+              <p>
+                Ich probiere gerne neue Dinge aus, von digitalen Anwendungen bis hin zu experimentellen, analogen Konzepten. Mein Fokus liegt darauf, kreative Ideen strukturiert umzusetzen und unterschiedliche Medien sinnvoll miteinander zu verbinden.
+              </p>
+              <p>
+                In meiner Arbeit lege ich Wert auf Offenheit, Neugier und eine strukturierte Herangehensweise. Ich arbeite gerne im Austausch mit anderen und freue mich über neue Impulse und kreative Zusammenarbeit.
+              </p>
+              <p>
+                Ich bin immer offen für spannende Projekte, Kollaborationen und neue Herausforderungen.
+              </p>
+            </div>
 
-            <div className="flex justify-center lg:justify-start pt-2">
+            {/*<div className="flex justify-center lg:justify-start pt-2">
               <button className="btn-primary gap-3">
                 <Download className="w-6 h-6" strokeWidth={2} />
                 <span>Download CV</span>
               </button>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
