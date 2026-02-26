@@ -4,7 +4,7 @@ const Posters = () => {
   return (
     <section id="posters">
       <div className="project-container">
-        <div className="page-content">
+        <div className="project-header-section">
           <h1>Grafik Design</h1>
 
           <h2> Plakate</h2>

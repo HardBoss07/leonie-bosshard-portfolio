@@ -15,19 +15,18 @@ const Bubbl = () => {
   ];
 
   return (
-    <section id="bubbl">
+    <section id="bubbl" className="section-padding">
       <div className="project-container">
-        <div className="page-content">
+        <div className="project-header-section">
           <h2>bubbl</h2>
-          <p className="text-xl italic text-gray-600 mb-10">
+          <p className="project-header-tagline">
             Tagline: Bubbles, but better.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full text-justify lg:text-left">
+        <div className="project-layout-grid">
           <div className="flex flex-col gap-8">
             <Essence
-              className="className=flex flex-col gap-8"
               bold="bubbl"
               text=" is a playful, modern soda that's fun, functional, and guilt-free. Low sugar, gut-friendly, and visually fresh, it turns every sip into a joyful moment."
             />

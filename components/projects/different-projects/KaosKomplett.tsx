@@ -5,7 +5,7 @@ const KaosKomplett = () => {
   return (
     <section id="kaos-komplett">
       <div className="project-container">
-        <div className="page-content">
+        <div className="project-header-section">
           <h2> Kaos Komplett</h2>
 
           <div className="project-text">

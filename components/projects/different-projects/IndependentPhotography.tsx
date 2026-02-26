@@ -5,7 +5,7 @@ const IndependentPhotography = () => {
   return (
     <section id="independent-photography">
       <div className="project-container">
-        <div className="page-content">
+        <div className="project-header-section">
           <h2> Freie fotografische Arbeiten</h2>
 
           <div className="project-text">

@@ -4,7 +4,7 @@ const ReDentKit = () => {
   return (
     <section id="redent-kit">
       <div className="project-container">
-        <div className="page-content">
+        <div className="project-header-section">
           <h1>Analoge Projekte</h1>
           <h2>Re:Dent Kit</h2>
 

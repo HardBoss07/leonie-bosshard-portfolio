@@ -10,7 +10,7 @@ interface EssenceProps {
 const Essence: React.FC<EssenceProps> = ({ bold, text, className }) => {
   return (
     <div className={cn("w-full", className)}>
-      <h3 className="text-2xl font-bold mb-4 border-b pb-2">Essence</h3>
+      <h3 className="project-section-title">Essence</h3>
       <p className="text-lg leading-relaxed">
         <strong>{bold}</strong>
         {text}

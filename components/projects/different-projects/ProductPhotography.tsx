@@ -5,7 +5,7 @@ const ProductPhotography = () => {
   return (
     <section id="product-photography">
       <div className="project-container">
-        <div className="page-content">
+        <div className="project-header-section">
           <h1>Fotografie</h1>
           <h2>Produktfotografie</h2>
 

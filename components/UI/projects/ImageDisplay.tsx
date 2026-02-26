@@ -21,7 +21,7 @@ const ImageDisplay: React.FC<ImageDisplayComponentProps> = ({
       {images.map((image, index) => (
         <div
           key={image.src}
-          className="relative w-full aspect-[842/1191] overflow-hidden shadow-2xl transition-transform hover:scale-[1.02]"
+          className="relative w-full aspect-[842/1191] overflow-hidden project-card-shadow"
         >
           <Image
             src={image.src}

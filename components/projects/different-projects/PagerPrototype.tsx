@@ -5,7 +5,7 @@ const PagerPrototype = () => {
   return (
     <section id="pager-prototype">
       <div className="project-container">
-        <div className="page-content">
+        <div className="project-header-section">
           <h2> Pager Prototyp</h2>
 
           <div className="project-text">

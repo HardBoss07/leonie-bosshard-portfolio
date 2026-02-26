@@ -4,7 +4,7 @@ const PortraitPhotography = () => {
   return (
     <section id="portrait-photography">
       <div className="project-container">
-        <div className="page-content">
+        <div className="project-header-section">
           <h2> Portraitfotograpfie</h2>
 
           <div className="project-text">

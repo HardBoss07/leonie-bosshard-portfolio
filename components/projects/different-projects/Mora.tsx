@@ -17,68 +17,67 @@ const Mora = () => {
   return (
     <section id="mora">
       <div className="project-container">
-        <div className="page-content">
+        <div className="project-header-section">
           <h1> Brand Concept</h1>
           <h2>mora</h2>
-          <p className="text-xl italic text-gray-600 mb-10">
+          <p className="project-header-tagline">
             Tagline: gentle care, every day.
           </p>
+        </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full text-justify lg:text-left">
-            <div className="flex flex-col gap-8">
-              <Essence
-                className="className=flex flex-col gap-8"
-                bold="mora"
-                text=" is a playful, modern personal care brand that's fun, gentle, and feel-good. Mild, nourishing, and visually soft, it turns every shower into a joyful moment."
-              />
+        <div className="project-layout-grid">
+          <div className="flex flex-col gap-8">
+            <Essence
+              bold="mora"
+              text=" is a playful, modern personal care brand that's fun, gentle, and feel-good. Mild, nourishing, and visually soft, it turns every shower into a joyful moment."
+            />
 
-              <List
-                title="Personality"
-                items={[
-                  "Optimistic, light, approachable",
-                  "Playful, never preachy",
-                  "Friendly, rounded, modern",
-                ]}
-              />
-
-              <List
-                title="Audience"
-                items={[
-                  "18-35, health-conscious, trend-savvy",
-                  "Pastel-loving, social media friendly",
-                  "Values clean, minimal, feel-good design",
-                ]}
-              />
-            </div>
-
-            <System
-              description="Duft-/Sortenwelt sofort über Farbe erkennbar:"
+            <List
+              title="Personality"
               items={[
-                {
-                  color: "#C7B6CF",
-                  label: "Blackberry & Vanilla - Pastel Purple",
-                },
-                {
-                  color: "#E7BFC8",
-                  label: "Raspberry & Hibiscus - Pastel Raspberry",
-                },
-                { color: "#F3A7B3", label: "Cherry & Almond - Pastel Cherry" },
+                "Optimistic, light, approachable",
+                "Playful, never preachy",
+                "Friendly, rounded, modern",
               ]}
-              footer="Namenssystem: Erst die Hauptnote (Flavor), dann eine verspielte zweite Note"
-              colorPalette={colorPalette}
+            />
+
+            <List
+              title="Audience"
+              items={[
+                "18-35, health-conscious, trend-savvy",
+                "Pastel-loving, social media friendly",
+                "Values clean, minimal, feel-good design",
+              ]}
             />
           </div>
 
-          <Promise
-            prefix="Gentle care, playful touch —"
-            suffix="feel soft, shower happy."
-            textColor="#FFF5EB"
-            accentColor="#E7BFC8"
-            highlightColor="#F3A7B3"
+          <System
+            description="Duft-/Sortenwelt sofort über Farbe erkennbar:"
+            items={[
+              {
+                color: "#C7B6CF",
+                label: "Blackberry & Vanilla - Pastel Purple",
+              },
+              {
+                color: "#E7BFC8",
+                label: "Raspberry & Hibiscus - Pastel Raspberry",
+              },
+              { color: "#F3A7B3", label: "Cherry & Almond - Pastel Cherry" },
+            ]}
+            footer="Namenssystem: Erst die Hauptnote (Flavor), dann eine verspielte zweite Note"
+            colorPalette={colorPalette}
           />
-
-          <ImageDisplay images={moraImages} />
         </div>
+
+        <Promise
+          prefix="Gentle care, playful touch —"
+          suffix="feel soft, shower happy."
+          textColor="#FFF5EB"
+          accentColor="#E7BFC8"
+          highlightColor="#F3A7B3"
+        />
+
+        <ImageDisplay images={moraImages} />
       </div>
     </section>
   );

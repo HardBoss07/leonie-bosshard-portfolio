@@ -5,7 +5,7 @@ const ReDentApp = () => {
   return (
     <section id="redent-app">
       <div className="project-container">
-        <div className="page-content">
+        <div className="project-header-section">
           <h1>UX / UI Interface</h1>
           <h2>Re:Dent App</h2>
 

@@ -32,11 +32,11 @@ const System: React.FC<SystemProps> = ({
   return (
     <div className={cn("w-full", className)}>
       <VisualIdentity colors={colorPalette} />
-      <h3 className="text-2xl font-bold mb-4 border-b pb-2">{title}</h3>
+      <h3 className="project-section-title">{title}</h3>
 
       {description && <p className="mb-4 font-semibold">{description}</p>}
 
-      <ul className="space-y-3 text-lg">
+      <ul className="project-system-list">
         {items.map((item, index) => (
           <li key={index} className="flex items-center gap-2">
             <span
