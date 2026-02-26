@@ -8,7 +8,6 @@ const photography: string = `${suffix}photography/#`;
 const uiUxInterface: string = `${suffix}ui-ux-interface/#`;
 const analogProjects: string = `${suffix}analog-projects/#`;
 
-
 export const projects: ProjectCardProps[] = [
   {
     coverImage: `${IP[0]}bubbl_1_4000x4000.png`,

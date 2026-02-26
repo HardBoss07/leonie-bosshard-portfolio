@@ -3,13 +3,13 @@ import ProductPhotography from "@/components/projects/different-projects/Product
 import PortraitPhotography from "@/components/projects/different-projects/PortraitPhotography";
 
 const Photography = () => {
-    return (
-        <div>
-            <ProductPhotography />
-            <PortraitPhotography />
-            <IndependentPhotography />
-        </div>
-    )
-}
+  return (
+    <div>
+      <ProductPhotography />
+      <PortraitPhotography />
+      <IndependentPhotography />
+    </div>
+  );
+};
 
 export default Photography;

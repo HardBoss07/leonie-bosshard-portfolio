@@ -25,7 +25,9 @@ export default function PortraitMosaic() {
 
       <div
         className="relative w-full overflow-hiddeng"
-        style={{ aspectRatio: `${portraitImages[2].w} / ${portraitImages[2].h}` }}
+        style={{
+          aspectRatio: `${portraitImages[2].w} / ${portraitImages[2].h}`,
+        }}
       >
         <Image
           src={portraitImages[2].src}

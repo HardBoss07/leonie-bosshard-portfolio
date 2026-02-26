@@ -12,8 +12,11 @@ const AdobeIcon = ({ tool, className, size = 38 }: AdobeIconProps) => {
   const iconPath = `/icons/Adobe${tool}.svg`;
 
   return (
-    <div 
-      className={cn("relative inline-flex items-center justify-center", className)}
+    <div
+      className={cn(
+        "relative inline-flex items-center justify-center",
+        className,
+      )}
       style={{ width: size, height: size }}
     >
       <Image
@@ -21,10 +24,10 @@ const AdobeIcon = ({ tool, className, size = 38 }: AdobeIconProps) => {
         alt={`Adobe ${tool} Icon`}
         fill
         className="object-contain"
-        priority 
+        priority
       />
     </div>
   );
 };
 
-export default AdobeIcon;
+export default AdobeIcon;

@@ -1,1 +1,6 @@
-export type AdobeTool = "Illustrator" | "InDesign" | "Lightroom" | "Photoshop" | "Premiere";
+export type AdobeTool =
+  | "Illustrator"
+  | "InDesign"
+  | "Lightroom"
+  | "Photoshop"
+  | "Premiere";

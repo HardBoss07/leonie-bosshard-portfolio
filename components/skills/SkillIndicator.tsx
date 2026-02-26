@@ -73,4 +73,4 @@ const SkillIndicator: React.FC<SkillIndicatorComponentProps> = ({
   );
 };
 
-export default SkillIndicator;
+export default SkillIndicator;

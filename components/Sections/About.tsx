@@ -26,19 +26,33 @@ const About = () => {
           <div className="flex flex-col gap-8 max-w-2xl">
             <div className="text-lg text-primary-text leading-loose text-justify">
               <p>
-                Ich bin Intermedia-Studentin an der Fachhochschule Vorarlberg in Österreich mit einem besonderen Interesse an visueller Kommunikation und Gestaltung. Derzeit verbringe ich mein Auslandssemester an der University of Technology Sydney, wo ich neue Perspektiven sammle und meine gestalterischen Fähigkeiten in einem internationalen Umfeld weiterentwickle.
+                Ich bin Intermedia-Studentin an der Fachhochschule Vorarlberg in
+                Österreich mit einem besonderen Interesse an visueller
+                Kommunikation und Gestaltung. Derzeit verbringe ich mein
+                Auslandssemester an der University of Technology Sydney, wo ich
+                neue Perspektiven sammle und meine gestalterischen Fähigkeiten
+                in einem internationalen Umfeld weiterentwickle.
               </p>
               <p>
-                Neben meinem Studium arbeite ich als Fotografin und beschäftige mich intensiv damit, wie Bilder wirken und Geschichten vermitteln können.
+                Neben meinem Studium arbeite ich als Fotografin und beschäftige
+                mich intensiv damit, wie Bilder wirken und Geschichten
+                vermitteln können.
               </p>
               <p>
-                Ich probiere gerne neue Dinge aus, von digitalen Anwendungen bis hin zu experimentellen, analogen Konzepten. Mein Fokus liegt darauf, kreative Ideen strukturiert umzusetzen und unterschiedliche Medien sinnvoll miteinander zu verbinden.
+                Ich probiere gerne neue Dinge aus, von digitalen Anwendungen bis
+                hin zu experimentellen, analogen Konzepten. Mein Fokus liegt
+                darauf, kreative Ideen strukturiert umzusetzen und
+                unterschiedliche Medien sinnvoll miteinander zu verbinden.
               </p>
               <p>
-                In meiner Arbeit lege ich Wert auf Offenheit, Neugier und eine strukturierte Herangehensweise. Ich arbeite gerne im Austausch mit anderen und freue mich über neue Impulse und kreative Zusammenarbeit.
+                In meiner Arbeit lege ich Wert auf Offenheit, Neugier und eine
+                strukturierte Herangehensweise. Ich arbeite gerne im Austausch
+                mit anderen und freue mich über neue Impulse und kreative
+                Zusammenarbeit.
               </p>
               <p>
-                Ich bin immer offen für spannende Projekte, Kollaborationen und neue Herausforderungen.
+                Ich bin immer offen für spannende Projekte, Kollaborationen und
+                neue Herausforderungen.
               </p>
             </div>
 
