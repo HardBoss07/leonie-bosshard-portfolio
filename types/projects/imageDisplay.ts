@@ -1,4 +1,6 @@
+import { ImageData } from "../image";
+
 export interface ImageDisplayProps {
-  imageURLs: string[];
+  imageURLs: ImageData[];
   altText: string;
 }
