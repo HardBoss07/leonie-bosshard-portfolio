@@ -1,14 +1,14 @@
-import { ImageDisplayProps } from "@/types/projects/imageDisplay";
 import { cn } from "@/lib/utils/cn";
 import Image from "next/image";
+import { ImageData } from "@/types/image";
 
-interface ImageDisplayComponentProps extends ImageDisplayProps {
+interface ImageDisplayComponentProps {
+  images: ImageData[]; // Updated to take the new ImageData array
   className?: string;
 }
 
 const ImageDisplay: React.FC<ImageDisplayComponentProps> = ({
-  imageURLs,
-  altText,
+  images = [],
   className,
 }) => {
   return (
@@ -18,14 +18,14 @@ const ImageDisplay: React.FC<ImageDisplayComponentProps> = ({
         className,
       )}
     >
-      {imageURLs.map((url, index) => (
+      {images.map((image, index) => (
         <div
-          key={url}
+          key={image.src}
           className="relative w-full aspect-[842/1191] overflow-hidden shadow-2xl transition-transform hover:scale-[1.02]"
         >
           <Image
-            src={url}
-            alt={`${altText} ${index + 1}`}
+            src={image.src}
+            alt={image.alt}
             fill
             priority={index === 0}
             className="object-cover"

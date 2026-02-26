@@ -1,14 +1,5 @@
 import Image from "next/image";
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
-
-const images = [
-  { src: `${IP[9]}redent_kit_3_4096x4064.png`, alt: "Kit 1", w: 4096, h: 4064 },
-  { src: `${IP[9]}redent_kit_1_4096x2731.png`, alt: "Kit 2", w: 4096, h: 2731 },
-  { src: `${IP[9]}redent_kit_2_4096x2725.png`, alt: "Kit 3", w: 4096, h: 2725 },
-  { src: `${IP[9]}redent_kit_5_1900x1900.png`, alt: "Kit 4", w: 1900, h: 1900 },
-  { src: `${IP[9]}redent_kit_6_2731x2731.png`, alt: "Kit 5", w: 2731, h: 2731 },
-  { src: `${IP[9]}redent_kit_4_4096x2731.png`, alt: "Kit 6", w: 4096, h: 2731 },
-];
+import { redentKitImages } from "@/lib/images/redentKitImages";
 
 export default function ReDentKitImages() {
   return (
@@ -16,45 +7,45 @@ export default function ReDentKitImages() {
       <div className="flex gap-4 w-full">
         <div
           className="relative overflow-hidden"
-          style={{ flex: `${images[0].w / images[0].h} 1 0%`, aspectRatio: `${images[0].w}/${images[0].h}` }}
+          style={{ flex: `${redentKitImages[0].w / redentKitImages[0].h} 1 0%`, aspectRatio: `${redentKitImages[0].w}/${redentKitImages[0].h}` }}
         >
-          <Image src={images[0].src} alt={images[0].alt} fill className="object-cover" />
+          <Image src={redentKitImages[0].src} alt={redentKitImages[0].alt} fill className="object-cover" />
         </div>
         <div
           className="relative overflow-hidden"
-          style={{ flex: `${images[1].w / images[1].h} 1 0%`, aspectRatio: `${images[1].w}/${images[1].h}` }}
+          style={{ flex: `${redentKitImages[1].w / redentKitImages[1].h} 1 0%`, aspectRatio: `${redentKitImages[1].w}/${redentKitImages[1].h}` }}
         >
-          <Image src={images[1].src} alt={images[1].alt} fill className="object-cover" />
-        </div>
-      </div>
-
-      <div className="flex gap-4 w-full">
-        <div
-          className="relative overflow-hidden"
-          style={{ flex: `${images[2].w / images[2].h} 1 0%`, aspectRatio: `${images[2].w}/${images[2].h}` }}
-        >
-          <Image src={images[2].src} alt={images[2].alt} fill className="object-cover" />
-        </div>
-        <div
-          className="relative overflow-hidden"
-          style={{ flex: `${images[3].w / images[3].h} 1 0%`, aspectRatio: `${images[3].w}/${images[3].h}` }}
-        >
-          <Image src={images[3].src} alt={images[3].alt} fill className="object-cover" />
+          <Image src={redentKitImages[1].src} alt={redentKitImages[1].alt} fill className="object-cover" />
         </div>
       </div>
 
       <div className="flex gap-4 w-full">
         <div
           className="relative overflow-hidden"
-          style={{ flex: `${images[4].w / images[4].h} 1 0%`, aspectRatio: `${images[4].w}/${images[4].h}` }}
+          style={{ flex: `${redentKitImages[2].w / redentKitImages[2].h} 1 0%`, aspectRatio: `${redentKitImages[2].w}/${redentKitImages[2].h}` }}
         >
-          <Image src={images[4].src} alt={images[4].alt} fill className="object-cover" />
+          <Image src={redentKitImages[2].src} alt={redentKitImages[2].alt} fill className="object-cover" />
         </div>
         <div
           className="relative overflow-hidden"
-          style={{ flex: `${images[5].w / images[5].h} 1 0%`, aspectRatio: `${images[5].w}/${images[5].h}` }}
+          style={{ flex: `${redentKitImages[3].w / redentKitImages[3].h} 1 0%`, aspectRatio: `${redentKitImages[3].w}/${redentKitImages[3].h}` }}
         >
-          <Image src={images[5].src} alt={images[5].alt} fill className="object-cover" />
+          <Image src={redentKitImages[3].src} alt={redentKitImages[3].alt} fill className="object-cover" />
+        </div>
+      </div>
+
+      <div className="flex gap-4 w-full">
+        <div
+          className="relative overflow-hidden"
+          style={{ flex: `${redentKitImages[4].w / redentKitImages[4].h} 1 0%`, aspectRatio: `${redentKitImages[4].w}/${redentKitImages[4].h}` }}
+        >
+          <Image src={redentKitImages[4].src} alt={redentKitImages[4].alt} fill className="object-cover" />
+        </div>
+        <div
+          className="relative overflow-hidden"
+          style={{ flex: `${redentKitImages[5].w / redentKitImages[5].h} 1 0%`, aspectRatio: `${redentKitImages[5].w}/${redentKitImages[5].h}` }}
+        >
+          <Image src={redentKitImages[5].src} alt={redentKitImages[5].alt} fill className="object-cover" />
         </div>
       </div>
     </div>
