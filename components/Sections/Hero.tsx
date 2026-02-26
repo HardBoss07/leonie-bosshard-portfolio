@@ -7,7 +7,7 @@ export default function Hero() {
 
   return (
     <section
-      className="section-padding flex items-center min-h-screen"
+      className="section-padding flex items-center min-h-[70vh] lg:min-h-[80vh]"
       id="home"
     >
       <div className="page-container flex flex-col lg:flex-row items-center justify-between gap-12">

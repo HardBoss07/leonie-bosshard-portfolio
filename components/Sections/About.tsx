@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="section-padding" id="about">
       <div className="page-container">
-        <div className="flex flex-col items-center mb-16 space-y-2">
+        <div className="flex flex-col items-center mb-12 space-y-2">
           <h2 className="text-4xl md:text-5xl font-bold text-primary-accent">
             About Me
           </h2>
