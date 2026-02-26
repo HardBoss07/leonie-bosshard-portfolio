@@ -1,24 +1,9 @@
 import React from "react";
 import { SkillIndicatorProps } from "@/types/skill";
 import { cn } from "@/lib/utils/cn";
-import {
-  AdobeIllustrator,
-  AdobeIndesign,
-  AdobeLightroom,
-  AdobePhotoshop,
-  Figma,
-} from "iconoir-react";
-// Import your custom icon component here
-import { AdobePremiereIcon } from "@/components/skills/AdobePremiere";
-
-const iconMap: Record<string, React.ComponentType<any>> = {
-  Figma: Figma,
-  "Adobe Photoshop": AdobePhotoshop,
-  "Adobe Illustrator": AdobeIllustrator,
-  "Adobe Lightroom": AdobeLightroom,
-  "Adobe InDesign": AdobeIndesign,
-  "Adobe Premiere": AdobePremiereIcon,
-};
+import { Figma } from "iconoir-react";
+import AdobeIcon from "./AdobeIcon";
+import { AdobeTool } from "@/types/adobeTool";
 
 interface SkillIndicatorComponentProps extends SkillIndicatorProps {
   className?: string;
@@ -29,21 +14,29 @@ const SkillIndicator: React.FC<SkillIndicatorComponentProps> = ({
   skill,
   className,
 }) => {
-  const radius = 40; // Circle radius
+  const radius = 40;
   const circumference = 2 * Math.PI * radius;
-
-  // This calculates the remaining part of the circle
   const offset = circumference - (skill / 100) * circumference;
 
-  // Resolve the icon component from the map
-  const IconComponent = iconMap[icon];
+  const renderIcon = () => {
+    if (icon.startsWith("Adobe")) {
+      const toolName = icon.replace("Adobe ", "").replace(" ", "") as AdobeTool;
+      return <AdobeIcon tool={toolName} size={32} />;
+    }
+
+    if (icon === "Figma") {
+      return <Figma className="w-8 h-8 text-primary-text" />;
+    }
+
+    return <span className="text-white text-[0.625rem] uppercase">Icon</span>;
+  };
 
   return (
     <div className={cn("flex flex-col items-center", className)}>
       <div className="relative w-24 h-24">
         <svg className="w-full h-full" viewBox="0 0 100 100">
           <circle
-            className="stroke-neutral-600"
+            className="stroke-neutral-800"
             strokeWidth="8"
             fill="transparent"
             r={radius}
@@ -64,12 +57,8 @@ const SkillIndicator: React.FC<SkillIndicatorComponentProps> = ({
           />
         </svg>
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center">
-          {IconComponent ? (
-            <IconComponent className="w-8 h-8 text-primary-text" />
-          ) : (
-            <span className="text-white text-[0.625rem] uppercase">Icon</span>
-          )}
+        <div className="absolute inset-0 flex items-center justify-center">
+          {renderIcon()}
         </div>
       </div>
 
@@ -84,4 +73,4 @@ const SkillIndicator: React.FC<SkillIndicatorComponentProps> = ({
   );
 };
 
-export default SkillIndicator;
+export default SkillIndicator;

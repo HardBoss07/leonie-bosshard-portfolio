@@ -50,4 +50,4 @@ export default function ReDentKitImages() {
       </div>
     </div>
   );
-}
+}

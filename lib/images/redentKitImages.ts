@@ -8,4 +8,4 @@ export const redentKitImages: ImageData[] = [
     { src: `${IMAGE_PREFIX[9]}redent_kit_5_1900x1900.png`, alt: "Kit 4", w: 1900, h: 1900 },
     { src: `${IMAGE_PREFIX[9]}redent_kit_6_2731x2731.png`, alt: "Kit 5", w: 2731, h: 2731 },
     { src: `${IMAGE_PREFIX[9]}redent_kit_4_4096x2731.png`, alt: "Kit 6", w: 4096, h: 2731 },
-];
+];

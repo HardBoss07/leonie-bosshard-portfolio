@@ -57,6 +57,7 @@ leonie-bosshard-portfolio/
 │   │   ├── ProjectGrid.tsx
 │   │   └── index.ts
 │   └── skills/
+│       ├── AdobeIcon.tsx
 │       ├── AdobePremiere.tsx
 │       ├── SkillGroup.tsx
 │       ├── SkillIndicator.tsx
@@ -65,6 +66,17 @@ leonie-bosshard-portfolio/
 │   ├── constants/
 │   │   ├── categories.ts
 │   │   └── imagePrefix.ts
+│   ├── images/
+│   │   ├── bubblImages.ts
+│   │   ├── graphicDesignImages.ts
+│   │   ├── independentPhotographyImages.ts
+│   │   ├── kaosKomplettImages.ts
+│   │   ├── moraImages.ts
+│   │   ├── pagerPrototypeImages.ts
+│   │   ├── portraitImages.ts
+│   │   ├── productPhotographyImages.ts
+│   │   ├── redentAppImages.ts
+│   │   └── redentKitImages.ts
 │   ├── projects/
 │   │   └── projectInfo.ts
 │   └── utils/
@@ -72,6 +84,10 @@ leonie-bosshard-portfolio/
 │       └── get-lucide-icon.ts
 ├── public/
 │   ├── icons/
+│   │   ├── AdobeIllustrator.svg
+│   │   ├── AdobeInDesign.svg
+│   │   ├── AdobeLightroom.svg
+│   │   ├── AdobePhotoshop.svg
 │   │   ├── AdobePremiere.svg
 │   │   ├── logo-zoom.svg
 │   │   └── logo.svg
@@ -144,7 +160,9 @@ leonie-bosshard-portfolio/
 │   ├── projects/
 │   │   ├── imageDisplay.ts
 │   │   └── posterDisplay.ts
+│   ├── adobeTool.ts
 │   ├── headshot.ts
+│   ├── image.ts
 │   ├── imagePrefix.ts
 │   ├── project.ts
 │   └── skill.ts

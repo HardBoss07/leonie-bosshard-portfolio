@@ -37,4 +37,4 @@ const ImageDisplay: React.FC<ImageDisplayComponentProps> = ({
   );
 };
 
-export default ImageDisplay;
+export default ImageDisplay;
