@@ -1,14 +1,7 @@
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
+import { pagerPrototypeImages } from "@/lib/images/pagerPrototypeImages";
 
 const PagerPrototype = () => {
-  const imageURLs: string[] = [
-    `${IP[7]}pager_prototype_1_1198x804.png`,
-    `${IP[7]}pager_prototype_2_1278x856.png`,
-    `${IP[7]}pager_prototype_3_1208x810.png`,
-    `${IP[7]}pager_prototype_4_1208x808.png`,
-  ];
-
   return (
     <section id="pager-prototype">
       <div className="project-container">
@@ -45,7 +38,7 @@ const PagerPrototype = () => {
           </div>
 
           <h2> Resultate:</h2>
-          <ImageDisplay imageURLs={imageURLs} altText="Product Photograph" />
+          <ImageDisplay images={pagerPrototypeImages} />
         </div>
       </div>
     </section>

@@ -1,14 +1,7 @@
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
+import { kaosKomplettImages } from "@/lib/images/kaosKomplettImages";
 
 const KaosKomplett = () => {
-  const imageURLs: string[] = [
-    `${IP[6]}kaos_komplett_1_2048x1365.png`,
-    `${IP[6]}kaos_komplett_2_2048x1365.png`,
-    `${IP[6]}kaos_komplett_3_2048x1365.png`,
-    `${IP[6]}kaos_komplett_4_2481x1654.png`,
-  ];
-
   return (
     <section id="kaos-komplett">
       <div className="project-container">
@@ -41,7 +34,7 @@ const KaosKomplett = () => {
           </div>
 
           <h2> Resultate:</h2>
-          <ImageDisplay imageURLs={imageURLs} altText="Kaos Komplett Image" />
+          <ImageDisplay images={kaosKomplettImages} />
         </div>
       </div>
     </section>

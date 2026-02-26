@@ -1,16 +1,7 @@
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
+import { independentPhotographyImages } from "@/lib/images/independentPhotographyImages";
 
 const IndependentPhotography = () => {
-  const imageURLs: string[] = [
-    `${IP[3]}independent_photography_1_1066x1600.png`,
-    `${IP[3]}independent_photography_2_2731x4096.png`,
-    `${IP[3]}independent_photography_3_1066x1600.png`,
-    `${IP[3]}independent_photography_4_2731x4096.png`,
-    `${IP[3]}independent_photography_5_2731x4096.png`,
-    `${IP[3]}independent_photography_6_2731x4096.png`,
-  ];
-
   return (
     <section id="independent-photography">
       <div className="project-container">
@@ -51,10 +42,7 @@ const IndependentPhotography = () => {
           </div>
 
           <h2>Resultate:</h2>
-          <ImageDisplay
-            imageURLs={imageURLs}
-            altText="Independent Photograph"
-          />
+          <ImageDisplay images={independentPhotographyImages} />
         </div>
       </div>
     </section>

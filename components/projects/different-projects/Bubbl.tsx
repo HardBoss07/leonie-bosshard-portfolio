@@ -1,20 +1,11 @@
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
 import { Promise } from "@/components/UI/projects/brand-concept/Promise";
 import List from "@/components/UI/projects/brand-concept/List";
 import System from "@/components/UI/projects/brand-concept/System";
 import Essence from "@/components/UI/projects/brand-concept/Essence";
+import { bubblImages } from "@/lib/images/bubblImages";
 
 const Bubbl = () => {
-  const imageURLs: string[] = [
-    `${IP[0]}bubbl_1_4000x4000.png`,
-    `${IP[0]}bubbl_2_4000x4000.png`,
-    `${IP[0]}bubbl_3_4000x3000.png`,
-    `${IP[0]}bubbl_4_3400x3200.png`,
-    `${IP[0]}bubbl_5_4000x4000.png`,
-    `${IP[0]}bubbl_6_4000x4000.png`,
-  ];
-
   const colorPalette = [
     { hex: "#FAF7F2", name: "Alabaster" },
     { hex: "#F3E3A1", name: "Wheat" },
@@ -80,7 +71,7 @@ const Bubbl = () => {
           highlightColor="#F3E3A1"
         />
 
-        <ImageDisplay imageURLs={imageURLs} altText="bubbl Brand Image" />
+        <ImageDisplay images={bubblImages} />
       </div>
     </section>
   );

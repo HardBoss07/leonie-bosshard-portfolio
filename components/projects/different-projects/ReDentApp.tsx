@@ -1,18 +1,7 @@
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
+import { redentAppImages } from "@/lib/images/redentAppImages";
 
 const ReDentApp = () => {
-  const imageURLs: string[] = [
-    `${IP[8]}redent_app_1_375x812.png`,
-    `${IP[8]}redent_app_2_375x812.png`,
-    `${IP[8]}redent_app_3_375x812.png`,
-    `${IP[8]}redent_app_4_375x812.png`,
-    `${IP[8]}redent_app_5_375x812.png`,
-    `${IP[8]}redent_app_6_375x812.png`,
-    `${IP[8]}redent_app_7_375x812.png`,
-    `${IP[8]}redent_app_8_375x812.png`,
-  ];
-
   return (
     <section id="redent-app">
       <div className="project-container">
@@ -53,7 +42,7 @@ const ReDentApp = () => {
 
           <h2>Resultate:</h2>
 
-          <ImageDisplay imageURLs={imageURLs} altText="Re:Dent App Image" />
+          <ImageDisplay images={redentAppImages} />
         </div>
       </div>
     </section>

@@ -1,15 +1,6 @@
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
-import ImageDisplay from "@/components/UI/projects/ImageDisplay";
-import Poster from "@/components/UI/projects/Poster";
 import MultiplePosters from "@/components/UI/projects/MultiplePosters";
 
 const Posters = () => {
-  const imageURLs: string[] = [
-    `${IP[2]}graphic-design_1_842x1191.png`,
-    `${IP[2]}graphic-design_2_842x1191.png`,
-    `${IP[2]}graphic-design_3_842x1191.png`,
-  ];
-
   return (
     <section id="posters">
       <div className="project-container">

@@ -1,13 +1,7 @@
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
+import { productPhotographyImages } from "@/lib/images/productPhotographyImages";
 
 const ProductPhotography = () => {
-  const imageURLs: string[] = [
-    `${IP[5]}product_photography_1_3078x4096.png`,
-    `${IP[5]}product_photography_2_3317x4096.png`,
-    `${IP[5]}product_photography_3_2795x2820.png`,
-  ];
-
   return (
     <section id="product-photography">
       <div className="project-container">
@@ -51,7 +45,7 @@ const ProductPhotography = () => {
 
           <h2>Resultate:</h2>
 
-          <ImageDisplay imageURLs={imageURLs} altText="Produktfotografie" />
+          <ImageDisplay images={productPhotographyImages} />
         </div>
       </div>
     </section>

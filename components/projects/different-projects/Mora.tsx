@@ -1,20 +1,11 @@
-import { IMAGE_PREFIX as IP } from "@/lib/constants/imagePrefix";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
 import { Promise } from "@/components/UI/projects/brand-concept/Promise";
 import List from "@/components/UI/projects/brand-concept/List";
 import System from "@/components/UI/projects/brand-concept/System";
 import Essence from "@/components/UI/projects/brand-concept/Essence";
+import { moraImages } from "@/lib/images/moraImages";
 
 const Mora = () => {
-  const imageURLs: string[] = [
-    `${IP[1]}mora_1_4000x3000.png`,
-    `${IP[1]}mora_2_4000x3000.png`,
-    `${IP[1]}mora_3_3400x3200.png`,
-    `${IP[1]}mora_4_4000x2667.png`,
-    `${IP[1]}mora_5_4000x3000.png`,
-    `${IP[1]}mora_6_4000x3000.png`,
-  ];
-
   const colorPalette = [
     { hex: "#C7B6CF", name: "Pastel Purple" },
     { hex: "#FFF5EB", name: "Cream" },
@@ -86,7 +77,7 @@ const Mora = () => {
             highlightColor="#F3A7B3"
           />
 
-          <ImageDisplay imageURLs={imageURLs} altText="mora Brand Image" />
+          <ImageDisplay images={moraImages} />
         </div>
       </div>
     </section>
