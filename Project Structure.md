@@ -83,6 +83,8 @@ leonie-bosshard-portfolio/
 │       ├── cn.ts
 │       └── get-lucide-icon.ts
 ├── public/
+│   ├── docs/
+│   │   └── CV_LeonieBosshard.pdf
 │   ├── icons/
 │   │   ├── AdobeIllustrator.svg
 │   │   ├── AdobeInDesign.svg

@@ -2,8 +2,25 @@ import ButtonComponent from "@/components/UI/ButtonComponent";
 import Headshot from "@/components/UI/Headshot";
 
 export default function Hero() {
-  const contactMe = () => console.log("Contacted!");
-  const downloadCV = () => console.log("Downloaded CV");
+  const contactMe = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.location.hash = "#contact";
+    }
+  };
+
+  const downloadCV = () => {
+    const cvPath = "/docs/CV_LeonieBosshard.pdf";
+    
+    const link = document.createElement("a");
+    link.href = cvPath;
+    link.setAttribute("download", "CV_LeonieBosshard.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <section
