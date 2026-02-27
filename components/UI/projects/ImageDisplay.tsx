@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ImageData } from "@/types/image";
 
 interface ImageDisplayComponentProps {
-  images: ImageData[]; // Updated to take the new ImageData array
+  images: ImageData[];
   className?: string;
 }
 
@@ -12,27 +12,31 @@ const ImageDisplay: React.FC<ImageDisplayComponentProps> = ({
   className,
 }) => {
   return (
-    <div
-      className={cn(
-        "mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full",
-        className,
-      )}
-    >
-      {images.map((image, index) => (
-        <div
-          key={image.src}
-          className="relative w-full aspect-[842/1191] overflow-hidden project-card-shadow"
-        >
-          <Image
-            src={image.src}
-            alt={image.alt}
-            fill
-            priority={index === 0}
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
-      ))}
+    <div className={cn("flex flex-wrap gap-4 w-full mt-12", className)}>
+      {images.map((image, index) => {
+        const aspectRatio = image.w / image.h;
+
+        return (
+          <div
+            key={image.src}
+            className="relative overflow-hidden project-card-shadow"
+            style={{
+              flex: `${aspectRatio} 1 0%`,
+              aspectRatio: `${image.w} / ${image.h}`,
+              minWidth: "calc(50% - 1rem)",
+            }}
+          >
+            <Image
+              src={image.src}
+              alt={image.alt}
+              fill
+              priority={index < 2}
+              className="object-cover"
+              sizes="(max-width: 768px) 50vw, 33vw"
+            />
+          </div>
+        );
+      })}
     </div>
   );
 };
