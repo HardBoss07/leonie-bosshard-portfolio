@@ -40,7 +40,7 @@ const PortraitPhotography = () => {
             </p>
           </div>
 
-          <h2>Resultate:</h2>
+          <h2></h2>
 
           <PortraitMosaic />
         </div>
