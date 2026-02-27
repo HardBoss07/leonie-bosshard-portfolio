@@ -10,10 +10,10 @@ const analogProjects: string = `${suffix}analog-projects/#`;
 
 export const projects: ProjectCardProps[] = [
   {
-    coverImage: `${IP[0]}bubbl_1_4000x4000.png`,
-    name: "Brand Concept: bubbl",
+    coverImage: `${IP[1]}mora_1_4000x3000.png`,
+    name: "Brand Concept",
     category: "Grafik Design",
-    url: `${graphicDesign}bubbl`,
+    url: `${graphicDesign}brand-concept`,
   },
   {
     coverImage: `${IP[5]}product_photography_1_3078x4096.png`,
@@ -44,13 +44,6 @@ export const projects: ProjectCardProps[] = [
     name: "Re:Dent Kit",
     category: "Analoge Projekte",
     url: `${analogProjects}redent-kit`,
-  },
-
-  {
-    coverImage: `${IP[1]}mora_1_4000x3000.png`,
-    name: "Brand Concept: mora",
-    category: "Grafik Design",
-    url: `${graphicDesign}mora`,
   },
 
   {

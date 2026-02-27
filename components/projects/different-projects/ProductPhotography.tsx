@@ -43,8 +43,6 @@ const ProductPhotography = () => {
             </p>
           </div>
 
-          <h2></h2>
-
           <ImageDisplay images={productPhotographyImages} />
         </div>
       </div>

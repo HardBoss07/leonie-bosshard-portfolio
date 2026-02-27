@@ -3,7 +3,7 @@ import { portraitImages } from "@/lib/images/portraitImages";
 
 export default function PortraitMosaic() {
   return (
-    <div className="flex flex-col gap-4 w-full max-w-5xl mx-auto p-4">
+    <div className="mt-12 flex flex-col gap-4 w-full max-w-5xl mx-auto p-4">
       <div className="grid grid-cols-2 gap-4">
         <div className="relative aspect-square overflow-hidden">
           <Image

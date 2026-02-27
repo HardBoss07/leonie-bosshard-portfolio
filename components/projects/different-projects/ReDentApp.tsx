@@ -40,8 +40,6 @@ const ReDentApp = () => {
             </p>
           </div>
 
-          <h2></h2>
-
           <ImageDisplay images={redentAppImages} />
         </div>
       </div>

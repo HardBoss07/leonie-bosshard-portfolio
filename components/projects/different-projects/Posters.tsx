@@ -42,7 +42,6 @@ const Posters = () => {
               steigert ihre visuelle Präsenz in digitalen und gedruckten Medien.
             </p>
           </div>
-          <h2></h2>
 
           <MultiplePosters />
         </div>

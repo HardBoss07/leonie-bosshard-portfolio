@@ -41,7 +41,7 @@ const IndependentPhotography = () => {
             </p>
           </div>
 
-          <h2></h2>
+          
           <ImageDisplay images={independentPhotographyImages} />
         </div>
       </div>

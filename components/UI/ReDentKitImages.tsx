@@ -3,7 +3,7 @@ import { redentKitImages } from "@/lib/images/redentKitImages";
 
 export default function ReDentKitImages() {
   return (
-    <div className="flex flex-col gap-4 w-full max-w-6xl mx-auto p-4">
+    <div className="mt-12 flex flex-col gap-4 w-full max-w-6xl mx-auto p-4">
       <div className="flex gap-4 w-full">
         <div
           className="relative overflow-hidden"

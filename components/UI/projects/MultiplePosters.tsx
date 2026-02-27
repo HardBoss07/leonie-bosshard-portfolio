@@ -3,7 +3,7 @@ import { graphicDesignImages } from "@/lib/images/graphicDesignImages";
 
 const MultiplePosters = () => {
   return (
-    <div className="">
+    <div className="mt-12">
       <Poster
         url={graphicDesignImages[2].src}
         title="Resonanz"

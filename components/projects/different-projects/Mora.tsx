@@ -15,7 +15,7 @@ const Mora = () => {
   ];
 
   return (
-    <section id="mora">
+    <section id="brand-concept">
       <div className="project-container">
         <div className="project-header-section">
           <h1> Brand Concept</h1>

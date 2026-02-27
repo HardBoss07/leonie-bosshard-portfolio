@@ -46,8 +46,6 @@ const ReDentKit = () => {
             </p>
           </div>
 
-          <h2></h2>
-
           <ReDentKitImages />
         </div>
       </div>

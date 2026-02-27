@@ -33,7 +33,6 @@ const KaosKomplett = () => {
             </p>
           </div>
 
-          <h2></h2>
           <ImageDisplay images={kaosKomplettImages} />
         </div>
       </div>
