@@ -66,6 +66,14 @@
     @apply page-content mb-12;
   }
 
+  .project-container h1 {
+    @apply text-3xl md:text-7xl font-bold leading-tight mb-4 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent pr-2 pb-1;
+  }
+
+  .project-container h2 {
+    @apply text-primary-accent text-2xl md:text-4xl font-bold mb-6;
+  }
+
   .project-header-tagline {
     @apply text-xl italic text-gray-400 mb-10;
   }
