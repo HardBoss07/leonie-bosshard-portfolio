@@ -1,3 +1,4 @@
+import BackButton from "@/components/UI/BackButton";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
 import { redentAppImages } from "@/lib/images/redentAppImages";
 
@@ -6,6 +7,7 @@ const ReDentApp = () => {
     <section id="redent-app">
       <div className="project-container">
         <div className="project-header-section">
+          <BackButton/>
           <h1>UX / UI Interface</h1>
           <h2>Re:Dent App</h2>
 

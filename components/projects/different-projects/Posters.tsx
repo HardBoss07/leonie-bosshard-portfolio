@@ -1,3 +1,4 @@
+import BackButton from "@/components/UI/BackButton";
 import MultiplePosters from "@/components/UI/projects/MultiplePosters";
 
 const Posters = () => {
@@ -5,6 +6,7 @@ const Posters = () => {
     <section id="posters">
       <div className="project-container">
         <div className="project-header-section">
+          <BackButton/>
           <h1>Grafik Design</h1>
 
           <h2> Plakate</h2>

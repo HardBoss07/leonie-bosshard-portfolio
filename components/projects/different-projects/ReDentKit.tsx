@@ -1,3 +1,4 @@
+import BackButton from "@/components/UI/BackButton";
 import ReDentKitImages from "@/components/UI/ReDentKitImages";
 
 const ReDentKit = () => {
@@ -5,6 +6,7 @@ const ReDentKit = () => {
     <section id="redent-kit">
       <div className="project-container">
         <div className="project-header-section">
+          <BackButton />
           <h1>Analoge Projekte</h1>
           <h2>Re:Dent Kit</h2>
 

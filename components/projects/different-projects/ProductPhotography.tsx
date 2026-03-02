@@ -1,3 +1,4 @@
+import BackButton from "@/components/UI/BackButton";
 import ImageDisplay from "@/components/UI/projects/ImageDisplay";
 import { productPhotographyImages } from "@/lib/images/productPhotographyImages";
 
@@ -6,6 +7,7 @@ const ProductPhotography = () => {
     <section id="product-photography">
       <div className="project-container">
         <div className="project-header-section">
+          <BackButton />
           <h1>Fotografie</h1>
           <h2>Produktfotografie</h2>
 
