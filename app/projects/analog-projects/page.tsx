@@ -1,11 +1,12 @@
-import KaosKomplett from "@/components/projects/different-projects/KaosKomplett";
 import ReDentKit from "@/components/projects/different-projects/ReDentKit";
+import ProjectTemplate from "@/components/projects/ProjectTemplate";
+import { projectData } from "@/lib/projects/projectDetailInfo";
 
 const AnalogProjects = () => {
   return (
     <div>
       <ReDentKit />
-      <KaosKomplett />
+      <ProjectTemplate {...projectData.kaosKomplett} />;
     </div>
   );
 };

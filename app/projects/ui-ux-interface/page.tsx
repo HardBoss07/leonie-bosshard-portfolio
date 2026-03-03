@@ -1,11 +1,11 @@
-import ReDentApp from "@/components/projects/different-projects/ReDentApp";
-import PagerPrototype from "@/components/projects/different-projects/PagerPrototype";
+import { projectData } from "@/lib/projects/projectDetailInfo";
+import ProjectTemplate from "@/components/projects/ProjectTemplate";
 
 const UiUxInterface = () => {
   return (
     <div>
-      <ReDentApp />
-      <PagerPrototype />
+      <ProjectTemplate {...projectData.redentApp} />;
+      <ProjectTemplate {...projectData.pagerPrototype} />;
     </div>
   );
 };
