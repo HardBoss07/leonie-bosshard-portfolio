@@ -6,7 +6,7 @@ const Posters = () => {
     <section id="posters">
       <div className="project-container">
         <div className="project-header-section">
-          <BackButton/>
+          <BackButton />
           <h1>Grafik Design</h1>
 
           <h2> Plakate</h2>

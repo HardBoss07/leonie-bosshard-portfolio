@@ -13,7 +13,7 @@ export default function Hero() {
 
   const downloadCV = () => {
     const cvPath = "/docs/CV_LeonieBosshard.pdf";
-    
+
     const link = document.createElement("a");
     link.href = cvPath;
     link.setAttribute("download", "CV_LeonieBosshard.pdf");
@@ -36,7 +36,9 @@ export default function Hero() {
             Leonie Bosshard
           </h3>
 
-<h1 className="leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent pr-2 pb-1">            Design Portfolio
+          <h1 className="leading-tight mb-8 bg-gradient-to-r from-[#FF0A54] via-[#FF5C93] to-[#FF0A54] bg-clip-text text-transparent pr-2 pb-1">
+            {" "}
+            Design Portfolio
           </h1>
 
           <div className="flex flex-row gap-4 sm:gap-6 items-center">
