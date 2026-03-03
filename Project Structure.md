@@ -32,6 +32,7 @@ leonie-bosshard-portfolio/
 │   │   │   ├── ImageDisplay.tsx
 │   │   │   ├── MultiplePosters.tsx
 │   │   │   └── Poster.tsx
+│   │   ├── BackButton.tsx
 │   │   ├── ButtonComponent.tsx
 │   │   ├── Headshot.tsx
 │   │   ├── PortraitMosiac.tsx
@@ -55,6 +56,7 @@ leonie-bosshard-portfolio/
 │   │   ├── CategoryFilter.tsx
 │   │   ├── ProjectCard.tsx
 │   │   ├── ProjectGrid.tsx
+│   │   ├── ProjectTemplate.tsx
 │   │   └── index.ts
 │   └── skills/
 │       ├── AdobeIcon.tsx
@@ -78,6 +80,7 @@ leonie-bosshard-portfolio/
 │   │   ├── redentAppImages.ts
 │   │   └── redentKitImages.ts
 │   ├── projects/
+│   │   ├── projectDetailInfo.ts
 │   │   └── projectInfo.ts
 │   └── utils/
 │       ├── cn.ts
