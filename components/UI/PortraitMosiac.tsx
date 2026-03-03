@@ -1,22 +1,23 @@
 import Image from "next/image";
-import { portraitImages } from "@/lib/images/portraitImages";
+import { projectImages } from "@/lib/images";
 
 export default function PortraitMosaic() {
+  const images = projectImages.portrait;
   return (
     <div className="mt-12 flex flex-col gap-4 w-full max-w-5xl mx-auto p-4">
       <div className="grid grid-cols-2 gap-4">
         <div className="relative aspect-square overflow-hidden">
           <Image
-            src={portraitImages[0].src}
-            alt={portraitImages[0].alt}
+            src={images[0].src}
+            alt={images[0].alt}
             fill
             className="object-cover"
           />
         </div>
         <div className="relative aspect-square overflow-hidden">
           <Image
-            src={portraitImages[1].src}
-            alt={portraitImages[1].alt}
+            src={images[1].src}
+            alt={images[1].alt}
             fill
             className="object-cover"
           />
@@ -26,12 +27,12 @@ export default function PortraitMosaic() {
       <div
         className="relative w-full overflow-hiddeng"
         style={{
-          aspectRatio: `${portraitImages[2].w} / ${portraitImages[2].h}`,
+          aspectRatio: `${images[2].w} / ${images[2].h}`,
         }}
       >
         <Image
-          src={portraitImages[2].src}
-          alt={portraitImages[2].alt}
+          src={images[2].src}
+          alt={images[2].alt}
           fill
           className="object-cover"
         />
@@ -41,13 +42,13 @@ export default function PortraitMosaic() {
         <div
           className="relative overflow-hiddeng"
           style={{
-            flex: `${portraitImages[3].w / portraitImages[3].h} 1 0%`,
-            aspectRatio: `${portraitImages[3].w} / ${portraitImages[3].h}`,
+            flex: `${images[3].w / images[3].h} 1 0%`,
+            aspectRatio: `${images[3].w} / ${images[3].h}`,
           }}
         >
           <Image
-            src={portraitImages[3].src}
-            alt={portraitImages[3].alt}
+            src={images[3].src}
+            alt={images[3].alt}
             fill
             className="object-cover"
           />
@@ -56,13 +57,13 @@ export default function PortraitMosaic() {
         <div
           className="relative overflow-hiddeng"
           style={{
-            flex: `${portraitImages[4].w / portraitImages[4].h} 1 0%`,
-            aspectRatio: `${portraitImages[4].w} / ${portraitImages[4].h}`,
+            flex: `${images[4].w / images[4].h} 1 0%`,
+            aspectRatio: `${images[4].w} / ${images[4].h}`,
           }}
         >
           <Image
-            src={portraitImages[4].src}
-            alt={portraitImages[4].alt}
+            src={images[4].src}
+            alt={images[4].alt}
             fill
             className="object-cover"
           />

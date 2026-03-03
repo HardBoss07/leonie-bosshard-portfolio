@@ -3,7 +3,7 @@ import { Promise } from "@/components/UI/projects/brand-concept/Promise";
 import List from "@/components/UI/projects/brand-concept/List";
 import System from "@/components/UI/projects/brand-concept/System";
 import Essence from "@/components/UI/projects/brand-concept/Essence";
-import { bubblImages } from "@/lib/images/bubblImages";
+import { projectImages } from "@/lib/images";
 
 const Bubbl = () => {
   const colorPalette = [
@@ -70,7 +70,7 @@ const Bubbl = () => {
           highlightColor="#F3E3A1"
         />
 
-        <ImageDisplay images={bubblImages} />
+        <ImageDisplay images={projectImages.bubbl} />
       </div>
     </section>
   );

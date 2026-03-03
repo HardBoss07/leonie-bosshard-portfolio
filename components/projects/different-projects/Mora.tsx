@@ -3,7 +3,7 @@ import { Promise } from "@/components/UI/projects/brand-concept/Promise";
 import List from "@/components/UI/projects/brand-concept/List";
 import System from "@/components/UI/projects/brand-concept/System";
 import Essence from "@/components/UI/projects/brand-concept/Essence";
-import { moraImages } from "@/lib/images/moraImages";
+import { projectImages } from "@/lib/images";
 
 const Mora = () => {
   const colorPalette = [
@@ -77,7 +77,7 @@ const Mora = () => {
           highlightColor="#F3A7B3"
         />
 
-        <ImageDisplay images={moraImages} />
+        <ImageDisplay images={projectImages.mora} />
       </div>
     </section>
   );

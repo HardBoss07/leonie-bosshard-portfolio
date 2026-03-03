@@ -1,9 +1,5 @@
 import { ProjectProps } from "@/types/project";
-import { redentAppImages } from "@/lib/images/redentAppImages";
-import { independentPhotographyImages } from "@/lib/images/independentPhotographyImages";
-import { kaosKomplettImages } from "@/lib/images/kaosKomplettImages";
-import { pagerPrototypeImages } from "@/lib/images/pagerPrototypeImages";
-import { productPhotographyImages } from "@/lib/images/productPhotographyImages";
+import { projectImages } from "@/lib/images";
 
 export const projectData: Record<string, ProjectProps> = {
     redentApp: {
@@ -15,7 +11,7 @@ export const projectData: Record<string, ProjectProps> = {
             "Ergänzt wird die Anwendung durch einen Wissensbereich, eine Übersicht weiterer Produkte sowie eine Karte mit Orten zum Umpflanzen, für alle, die keinen eigenen Garten haben. In einem Community Bereich können Nutzer:innen die aus ihren Zahnbürsten gewachsenen Blumen teilen und sich austauschen. Zusätzlich lassen sich durch nachhaltige Aufgaben Punkte sammeln, die beim Kauf regenerativer Produkte eingelöst werden können.",
             "Gestalterisch wurde bewusst auf eine helle, weisse Oberfläche verzichtet, da sie zu steril wirkte und dem natürlichen, regenerativen Ansatz widersprach. Stattdessen setzt das Interface auf einen dunklen Hintergrund mit einem leuchtenden Neongrün, das Orientierung bietet und zentrale Interaktionen betont. Unterschiedliche Texturen wie Walnussschalen, Baumrinde und grafische Linien bringen Dynamik ins Design und schaffen eine Verbindung zur Natur, ohne klassisch ökologisch zu erscheinen. Insgesamt bewegt sich das visuelle Konzept gezielt zwischen Naturbezug und moderner digitaler Ästhetik."
         ],
-        images: redentAppImages,
+        images: projectImages.redentApp,
     },
     independentPhotography: {
         id: "independent-photography",
@@ -26,7 +22,7 @@ export const projectData: Record<string, ProjectProps> = {
             "Die Wahl der Locations und Hintergründe erfolgte gezielt, um die jeweilige Person zu unterstützen, ohne von ihr abzulenken. Architektur, Landschaft und urbane Elemente wurden bewusst in die Gestaltung einbezogen und verleihen den Bildern Tiefe und Kontext. Der Fokus liegt dabei stets auf dem Gesichtsausdruck und der Körpersprache.",
             "Ziel der Aufnahmen war es, vielseitige und authentische Independents zu schaffen, die sowohl experimentelle als auch klassische Ansätze verbinden und den individuellen Charakter der Personen sichtbar machen."
         ],
-        images: independentPhotographyImages,
+        images: projectImages.independentPhotography,
     },
     kaosKomplett: {
         id: "kaos-komplett",
@@ -36,7 +32,7 @@ export const projectData: Record<string, ProjectProps> = {
             "Gestalterisch basiert das Projekt auf handgezeichneten Illustrationen und einem kohärenten Farbschema, das eine schnelle visuelle Einordnung der Kategorien ermöglicht. Die Ästhetik setzt auf abgerundete Formen und eine hochwertige Haptik, um die spielerische Interaktion zwischen 3 bis 6 Personen zu unterstützen.",
             "In der Produktion wurde auf Langlebigkeit gesetzt: 300 g/m² starkes Papier für Karten und Verpackung bildet die Basis für das hochwertige Produktsystem. Durch das modulare Prinzip der \"TRIOs\" bleibt das Konzept zudem beliebig erweiterbar und zukunftsfähig."
         ],
-        images: kaosKomplettImages,
+        images: projectImages.kaosKomplett,
     },
     pagerPrototype: {
         id: "pager-prototype",
@@ -46,7 +42,7 @@ export const projectData: Record<string, ProjectProps> = {
             "Der Entwurfsprozess basierte auf umfangreichen Recherchen, zahlreichen Interviews mit Nutzer:innen sowie der Entwicklung verschiedener Prototypen. Diese wurden in mehreren Testphasen erprobt und kontinuierlich überarbeitet. Auf diese Weise konnten Erkenntnisse aus der Praxis direkt in die Gestaltung einfließen. Im Mittelpunkt stand dabei stets die User Experience sowie die realen Anforderungen und Abläufe im Einsatzalltag.",
             "Zentrale Designentscheidungen wurden insbesondere aus der Analyse der Nutzung des Pagers abgeleitet, der eine wichtige Rolle im Arbeitsalltag der Feuerwehr spielt. Ziel war es, eine einfache, schnelle und intuitive Bedienung zu ermöglichen. Gleichzeitig wurde auf ein zurückhaltendes und funktionales Design geachtet, das die Nutzer:innen unterstützt, Ablenkungen vermeidet und die Effizienz im Einsatz erhöht."
         ],
-        images: pagerPrototypeImages,
+        images: projectImages.pagerPrototype,
     },
     productPhotography: {
         id: "product-photography",
@@ -58,6 +54,6 @@ export const projectData: Record<string, ProjectProps> = {
             "Die Farbgebung und das Licht wurden an die jeweiligen Produkte angepasst. Während dunkle Hintergründe und kontrastreiche Beleuchtung die Intensität und Eleganz der Verpackungen betonen, sorgen helle Flächen und natürliche Elemente wie Zitronen für eine frische und authentische Wirkung. Dadurch wird der Charakter der einzelnen Produkte visuell unterstrichen.",
             "Ziel der Fotoreihe war es, ansprechende und professionelle Produktbilder zu schaffen, die sowohl ästhetisch überzeugen als auch die Markenbotschaft klar kommunizieren. Die bewusste Inszenierung unterstützt die Wiedererkennbarkeit der Produkte und steigert ihre visuelle Präsenz in digitalen und gedruckten Medien."
         ],
-        images: productPhotographyImages,
+        images: projectImages.productPhotography,
     },
 };
