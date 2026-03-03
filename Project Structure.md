@@ -68,23 +68,13 @@ leonie-bosshard-portfolio/
 │   ├── constants/
 │   │   ├── categories.ts
 │   │   └── imagePrefix.ts
-│   ├── images/
-│   │   ├── bubblImages.ts
-│   │   ├── graphicDesignImages.ts
-│   │   ├── independentPhotographyImages.ts
-│   │   ├── kaosKomplettImages.ts
-│   │   ├── moraImages.ts
-│   │   ├── pagerPrototypeImages.ts
-│   │   ├── portraitImages.ts
-│   │   ├── productPhotographyImages.ts
-│   │   ├── redentAppImages.ts
-│   │   └── redentKitImages.ts
 │   ├── projects/
 │   │   ├── projectDetailInfo.ts
 │   │   └── projectInfo.ts
-│   └── utils/
-│       ├── cn.ts
-│       └── get-lucide-icon.ts
+│   ├── utils/
+│   │   ├── cn.ts
+│   │   └── get-lucide-icon.ts
+│   └── images.ts
 ├── public/
 │   ├── docs/
 │   │   └── CV_LeonieBosshard.pdf
