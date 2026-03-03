@@ -44,14 +44,9 @@ leonie-bosshard-portfolio/
 │   ├── projects/
 │   │   ├── different-projects/
 │   │   │   ├── Bubbl.tsx
-│   │   │   ├── IndependentPhotography.tsx
-│   │   │   ├── KaosKomplett.tsx
 │   │   │   ├── Mora.tsx
-│   │   │   ├── PagerPrototype.tsx
 │   │   │   ├── PortraitPhotography.tsx
 │   │   │   ├── Posters.tsx
-│   │   │   ├── ProductPhotography.tsx
-│   │   │   ├── ReDentApp.tsx
 │   │   │   └── ReDentKit.tsx
 │   │   ├── CategoryFilter.tsx
 │   │   ├── ProjectCard.tsx
