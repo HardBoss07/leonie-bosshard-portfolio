@@ -1,5 +1,5 @@
 import { ProjectCardProps } from "@/types/project";
-import { IMAGE_PREFIX as IP } from "../constants/imagePrefix";
+import { projectImages } from "../images";
 
 const suffix: string = "/projects/";
 
@@ -10,61 +10,61 @@ const analogProjects: string = `${suffix}analog-projects/#`;
 
 export const projects: ProjectCardProps[] = [
   {
-    coverImage: `${IP[2]}graphic-design_1_842x1191.png`,
+    coverImage: projectImages.graphicDesign[0].src,
     name: "Poster Design",
     category: "Grafik Design",
     url: `${graphicDesign}posters`,
   },
   {
-    coverImage: `${IP[1]}mora_1_4000x3000.png`,
+    coverImage: projectImages.mora[0].src,
     name: "Brand Concept: mora",
     category: "Grafik Design",
     url: `${graphicDesign}brand-concept`,
   },
   {
-    coverImage: `${IP[0]}bubbl_1_4000x4000.png`,
+    coverImage: projectImages.bubbl[0].src,
     name: "Brand Concept: bubbl",
     category: "Grafik Design",
     url: `${graphicDesign}brand-concept`,
   },
   {
-    coverImage: `${IP[4]}portrait_photography_1_2296x2296.png`,
+    coverImage: projectImages.portrait[0].src,
     name: "Portraitfotograpfie",
     category: "Fotografie",
     url: `${photography}portrait-photography`,
   },
   {
-    coverImage: `${IP[3]}independent_photography_1_1066x1600.png`,
+    coverImage: projectImages.independentPhotography[0].src,
     name: "Freie fotografische Arbeiten",
     category: "Fotografie",
     url: `${photography}independent-photography`,
   },
   {
-    coverImage: `${IP[5]}product_photography_1_3078x4096.png`,
+    coverImage: projectImages.productPhotography[0].src,
     name: "Produktfotografie",
     category: "Fotografie",
     url: `${photography}product-photography`,
   },
   {
-    coverImage: `${IP[8]}redent_app_1_375x812.png`,
+    coverImage: projectImages.redentApp[0].src,
     name: "Re:Dent App",
     category: "UX / UI Interface",
     url: `${uiUxInterface}redent-app`,
   },
   {
-    coverImage: `${IP[7]}pager_prototype_1_1198x804.png`,
+    coverImage: projectImages.pagerPrototype[0].src,
     name: "Pager Prototyp",
     category: "UX / UI Interface",
     url: `${uiUxInterface}pager-prototype`,
   },
   {
-    coverImage: `${IP[9]}redent_kit_1_4096x2731.png`,
+    coverImage: projectImages.redentKit[0].src,
     name: "Re:Dent Kit",
     category: "Analoge Projekte",
     url: `${analogProjects}redent-kit`,
   },
   {
-    coverImage: `${IP[6]}kaos_komplett_1_2048x1365.png`,
+    coverImage: projectImages.kaosKomplett[0].src,
     name: "Kaos Komplett",
     category: "Analoge Projekte",
     url: `${analogProjects}kaos-komplett`,
