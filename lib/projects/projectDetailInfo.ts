@@ -17,10 +17,10 @@ export const projectData: Record<string, ProjectProps> = {
     id: "independent-photography",
     header2: "Freie fotografische Arbeiten",
     projectTexts: [
-      "Die Independentfotografien entstanden mit dem Ziel, die Persönlichkeit und Individualität der dargestellten Personen authentisch und ästhetisch festzuhalten. Dabei wurde sowohl mit Licht und Farben experimentiert als auch bewusst auf schlichte, klassische Independents im Freien gesetzt, die durch Natürlichkeit und Ruhe überzeugen.",
-      "Durch den Einsatz von farbigem Kunstlicht im Studio sowie natürlichem Tageslicht im Außenbereich entstanden unterschiedliche Stimmungen und Bildwirkungen. Intensive Farbkontraste erzeugen ausdrucksstarke, moderne Aufnahmen, während weiches Sonnenlicht und reduzierte Kompositionen zeitlose und unaufdringliche Independents ermöglichen.",
-      "Die Wahl der Locations und Hintergründe erfolgte gezielt, um die jeweilige Person zu unterstützen, ohne von ihr abzulenken. Architektur, Landschaft und urbane Elemente wurden bewusst in die Gestaltung einbezogen und verleihen den Bildern Tiefe und Kontext. Der Fokus liegt dabei stets auf dem Gesichtsausdruck und der Körpersprache.",
-      "Ziel der Aufnahmen war es, vielseitige und authentische Independents zu schaffen, die sowohl experimentelle als auch klassische Ansätze verbinden und den individuellen Charakter der Personen sichtbar machen.",
+      "Die Fotografien entstanden im Rahmen verschiedener Situationen und Reisen und zeigen unterschiedliche Eindrücke aus Alltag, Natur und Veranstaltungen. Ziel war es, besondere Momente, Stimmungen und Details bewusst wahrzunehmen und fotografisch festzuhalten. Dabei stand weniger die Inszenierung als vielmehr das Beobachten und Reagieren auf den richtigen Moment im Vordergrund.",
+      "Die Bilder entstanden überwiegend unter natürlichen Lichtbedingungen und nutzen vorhandene Umgebungen als gestalterisches Element. Landschaften, Architektur, Tiere und Events wurden so eingefangen, wie sie sich im jeweiligen Moment präsentierten. Durch gezielte Bildausschnitte und Perspektiven wird der Blick auf wesentliche Motive gelenkt, ohne die Situation künstlich zu verändern.",
+      "Besonderer Wert wurde auf eine ausgewogene Komposition sowie auf Farbwirkung und Tiefenwirkung gelegt. Dynamische Szenen, wie bei Sport- oder Flugveranstaltungen, stehen dabei im Kontrast zu ruhigen Natur- und Tieraufnahmen. Diese Vielfalt spiegelt das Interesse wider, unterschiedliche fotografische Genres auszuprobieren und weiterzuentwickeln.",
+      "Ziel der Aufnahmen war es, visuelle Eindrücke authentisch zu dokumentieren und gleichzeitig ein Gespür für Timing, Bildaufbau und Atmosphäre zu entwickeln. Die Fotografien dienen sowohl als persönliche Momentaufnahmen als auch als Grundlage zur kontinuierlichen Weiterentwicklung der eigenen fotografischen Handschrift.",
     ],
     images: projectImages.independentPhotography,
   },
@@ -46,7 +46,6 @@ export const projectData: Record<string, ProjectProps> = {
   },
   productPhotography: {
     id: "product-photography",
-    header1: "Fotografie",
     header2: "Produktfotografie",
     projectTexts: [
       "Die Produktfotografien entstanden mit dem Ziel, die jeweiligen Markenidentitäten und Produkteigenschaften visuell hervorzuheben. Durch den gezielten Einsatz von Licht, Hintergrund und Komposition sollte die Wirkung der Produkte verstärkt und ihre Besonderheiten in den Fokus gerückt werden.",

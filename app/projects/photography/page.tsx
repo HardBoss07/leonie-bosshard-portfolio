@@ -5,9 +5,9 @@ import ProjectTemplate from "@/components/projects/ProjectTemplate";
 const Photography = () => {
   return (
     <div>
-      <ProjectTemplate {...projectData.productPhotography} />;
       <PortraitPhotography />
       <ProjectTemplate {...projectData.independentPhotography} />;
+      <ProjectTemplate {...projectData.productPhotography} />;
     </div>
   );
 };

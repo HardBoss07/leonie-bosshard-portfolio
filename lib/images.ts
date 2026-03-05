@@ -40,8 +40,6 @@ export const projectImages: Record<string, ImageData[]> = {
       w: 3400,
       h: 3200,
     },
-
-
   ],
   graphicDesign: [
     {

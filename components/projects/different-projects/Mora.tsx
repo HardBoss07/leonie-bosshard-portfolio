@@ -18,7 +18,7 @@ const Mora = () => {
     <section id="brand-concept">
       <div className="project-container">
         <div className="project-header-section">
-          <h1> Brand Concept</h1>
+          <h1>Brand Concept</h1>
           <h2>mora</h2>
           <p className="project-header-tagline">
             Tagline: gentle care, every day.

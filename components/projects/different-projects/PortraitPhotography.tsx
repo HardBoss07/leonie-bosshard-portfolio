@@ -5,7 +5,9 @@ const PortraitPhotography = () => {
     <section id="portrait-photography">
       <div className="project-container">
         <div className="project-header-section">
-          <h2> Portraitfotograpfie</h2>
+          <h1>Fotografie</h1>
+
+          <h2>Portraitfotograpfie</h2>
 
           <div className="project-text">
             <p>
