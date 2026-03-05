@@ -6,7 +6,7 @@ const AnalogProjects = () => {
   return (
     <div>
       <ReDentKit />
-      <ProjectTemplate {...projectData.kaosKomplett} />;
+      <ProjectTemplate {...projectData.kaosKomplett} />
     </div>
   );
 };

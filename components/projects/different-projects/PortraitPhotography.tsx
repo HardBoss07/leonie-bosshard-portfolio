@@ -1,3 +1,4 @@
+import BackButton from "@/components/UI/BackButton";
 import PortraitMosaic from "@/components/UI/PortraitMosiac";
 
 const PortraitPhotography = () => {
@@ -5,6 +6,7 @@ const PortraitPhotography = () => {
     <section id="portrait-photography">
       <div className="project-container">
         <div className="project-header-section">
+          <BackButton />
           <h1>Fotografie</h1>
 
           <h2>Portraitfotograpfie</h2>

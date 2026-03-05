@@ -4,8 +4,8 @@ import ProjectTemplate from "@/components/projects/ProjectTemplate";
 const UiUxInterface = () => {
   return (
     <div>
-      <ProjectTemplate {...projectData.redentApp} />;
-      <ProjectTemplate {...projectData.pagerPrototype} />;
+      <ProjectTemplate {...projectData.redentApp} />
+      <ProjectTemplate {...projectData.pagerPrototype} />
     </div>
   );
 };

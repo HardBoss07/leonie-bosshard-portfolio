@@ -6,8 +6,8 @@ const Photography = () => {
   return (
     <div>
       <PortraitPhotography />
-      <ProjectTemplate {...projectData.independentPhotography} />;
-      <ProjectTemplate {...projectData.productPhotography} />;
+      <ProjectTemplate {...projectData.independentPhotography} />
+      <ProjectTemplate {...projectData.productPhotography} />
     </div>
   );
 };
