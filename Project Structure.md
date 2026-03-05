@@ -14,7 +14,8 @@ leonie-bosshard-portfolio/
 │   │       └── page.tsx
 │   ├── globals.css
 │   ├── layout.tsx
-│   └── page.tsx
+│   ├── page.tsx
+│   └── sitemap.ts
 ├── components/
 │   ├── Sections/
 │   │   ├── About.tsx
