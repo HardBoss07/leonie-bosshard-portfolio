@@ -65,9 +65,7 @@ const Mora = () => {
                 color: "#E7BFC8",
                 label: "Raspberry & Hibiscus - Pastel Raspberry",
               },
-              { color: "#F3A7B3", 
-                label: "Cherry & Almond - Pastel Cherry"
-              },
+              { color: "#F3A7B3", label: "Cherry & Almond - Pastel Cherry" },
             ]}
             footer="Namenssystem: Erst die Hauptnote (Flavor), dann eine verspielte zweite Note"
             colorPalette={colorPalette}

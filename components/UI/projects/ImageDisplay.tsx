@@ -11,8 +11,16 @@ const ImageDisplay: React.FC<ImageDisplayComponentProps> = ({
   images = [],
   className,
 }) => {
+  const isEightImages = images.length === 8;
+
   return (
-    <div className={cn("flex flex-wrap gap-4 w-full mt-12", className)}>
+    <div
+      className={cn(
+        "w-full mt-12 gap-4",
+        isEightImages ? "grid grid-cols-2 md:grid-cols-4" : "flex flex-wrap",
+        className,
+      )}
+    >
       {images.map((image, index) => {
         const aspectRatio = image.w / image.h;
 
@@ -21,9 +29,11 @@ const ImageDisplay: React.FC<ImageDisplayComponentProps> = ({
             key={image.src}
             className="relative overflow-hidden project-card-shadow"
             style={{
-              flex: `${aspectRatio} 1 0%`,
+              ...(!isEightImages && {
+                flex: `${aspectRatio} 1 0%`,
+                minWidth: "calc(50% - 1rem)",
+              }),
               aspectRatio: `${image.w} / ${image.h}`,
-              minWidth: "calc(50% - 1rem)",
             }}
           >
             <Image
@@ -32,7 +42,11 @@ const ImageDisplay: React.FC<ImageDisplayComponentProps> = ({
               fill
               priority={index < 2}
               className="object-cover"
-              sizes="(max-width: 768px) 50vw, 33vw"
+              sizes={
+                isEightImages
+                  ? "(max-width: 768px) 50vw, 25vw"
+                  : "(max-width: 768px) 50vw, 33vw"
+              }
             />
           </div>
         );

@@ -16,17 +16,17 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="#about" className="hover:text-primary-accent">
+              <Link href="/#about" className="hover:text-primary-accent">
                 Über mich
               </Link>
             </li>
             <li>
-              <Link href="#portfolio" className="hover:text-primary-accent">
+              <Link href="/#portfolio" className="hover:text-primary-accent">
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link href="#contact" className="hover:text-primary-accent">
+              <Link href="/#contact" className="hover:text-primary-accent">
                 Kontakt
               </Link>
             </li>

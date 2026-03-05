@@ -46,7 +46,7 @@ const Bubbl = () => {
                 "18-35",
                 "gesundheitsbewusst",
                 "trendaffin",
-                "social-media-freundlich"
+                "social-media-freundlich",
               ]}
             />
           </div>

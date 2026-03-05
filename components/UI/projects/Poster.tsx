@@ -20,7 +20,7 @@ const Poster: React.FC<PosterDisplayComponentProps> = ({
         className,
       )}
     >
-      <div className="text-primary-text flex-1 pt-2 text-justify max-w-4xl flex flex-col gap-4 text-lg leading-relaxed order-1 md:order-2">
+      <div className="text-primary-text flex-1 pt-2 text-justify flex flex-col gap-4 text-lg leading-relaxed order-1 md:order-2">
         <h3 className="text-2xl font-bold">{title}</h3>
         <p>{text}</p>
       </div>
