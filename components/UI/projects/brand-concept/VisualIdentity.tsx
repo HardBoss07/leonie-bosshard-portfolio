@@ -11,7 +11,7 @@ interface VisualIdentityProps {
 }
 
 const VisualIdentity = ({
-  title = "Visual Identity",
+  title = "Visuelle Identität",
   colors,
 }: VisualIdentityProps) => {
   return (

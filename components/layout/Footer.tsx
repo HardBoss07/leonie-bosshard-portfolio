@@ -17,7 +17,7 @@ const Footer = () => {
             </li>
             <li>
               <Link href="#about" className="hover:text-primary-accent">
-                About me
+                Über mich
               </Link>
             </li>
             <li>
@@ -27,7 +27,7 @@ const Footer = () => {
             </li>
             <li>
               <Link href="#contact" className="hover:text-primary-accent">
-                Contact me
+                Kontakt
               </Link>
             </li>
           </ul>

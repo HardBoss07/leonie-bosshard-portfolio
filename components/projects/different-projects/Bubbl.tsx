@@ -7,11 +7,11 @@ import { projectImages } from "@/lib/images";
 
 const Bubbl = () => {
   const colorPalette = [
-    { hex: "#FAF7F2", name: "Alabaster" },
-    { hex: "#F3E3A1", name: "Wheat" },
+    { hex: "#FAF7F2", name: "Cream / Off-White" },
+    { hex: "#F3E3A1", name: "Butter Yellow" },
     { hex: "#BFD9E8", name: "Sky Blue" },
     { hex: "#F28C8C", name: "Soft Coral" },
-    { hex: "#5A3A2E", name: "Deep Earth" },
+    { hex: "#5A3A2E", name: "Cola Brown" },
   ];
 
   return (
@@ -28,24 +28,25 @@ const Bubbl = () => {
           <div className="flex flex-col gap-8">
             <Essence
               bold="bubbl"
-              text=" is a playful, modern soda that's fun, functional, and guilt-free. Low sugar, gut-friendly, and visually fresh, it turns every sip into a joyful moment."
+              text=" ist eine verspielte, moderne Limonade, die Spass macht, funktional ist und ohne schlechtes Gewissen genossen werden kann. Wenig Zucker, gut für den Darm und visuell frisch - jeder Schluck wird zu einem kleinen Glücksmoment."
             />
 
             <List
-              title="Personality"
+              title="Persönlichkeit"
               items={[
-                "Optimistic, light, approachable",
-                "Playful, never preachy",
-                "Friendly, rounded, modern",
+                "Optimistisch, leicht, zugänglich",
+                "Spielerisch, aber niemals belehrend",
+                "Freundlich, rund, modern",
               ]}
             />
 
             <List
-              title="Audience"
+              title="Zielgruppe"
               items={[
-                "18-35, health-conscious, trend-savvy",
-                "Pastel-loving, social media friendly",
-                "Values clean, minimal, feel-good design",
+                "18-35",
+                "gesundheitsbewusst",
+                "trendaffin",
+                "social-media-freundlich"
               ]}
             />
           </div>
@@ -53,9 +54,9 @@ const Bubbl = () => {
           <System
             description="Geschmacksrichtungen sind sofort über Farbe erkennbar:"
             items={[
-              { color: "#BFD9E8", label: "Lemon Fizz" },
-              { color: "#F3E3A1", label: "Cherry Pop" },
-              { color: "#F28C8C", label: "Blueberry Calm" },
+              { color: "#F3E3A1", label: "Lemon Fizz" },
+              { color: "#F28C8C", label: "Cherry Pop" },
+              { color: "#BFD9E8", label: "Blueberry Calm" },
             ]}
             footer="Ruhe zuerst, Verspieltheit danach."
             colorPalette={colorPalette}

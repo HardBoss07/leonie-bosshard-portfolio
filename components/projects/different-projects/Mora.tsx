@@ -8,10 +8,10 @@ import { projectImages } from "@/lib/images";
 const Mora = () => {
   const colorPalette = [
     { hex: "#C7B6CF", name: "Pastel Purple" },
-    { hex: "#FFF5EB", name: "Cream" },
+    { hex: "#FFF5EB", name: "Cream / Off-White" },
     { hex: "#E7BFC8", name: "Pastel Raspberry" },
     { hex: "#F3A7B3", name: "Pastel Cherry" },
-    { hex: "#7A5A5A", name: "Cocoa" },
+    { hex: "#7A5A5A", name: "Soft Cocoa-Brown" },
   ];
 
   return (
@@ -29,24 +29,27 @@ const Mora = () => {
           <div className="flex flex-col gap-8">
             <Essence
               bold="mora"
-              text=" is a playful, modern personal care brand that's fun, gentle, and feel-good. Mild, nourishing, and visually soft, it turns every shower into a joyful moment."
+              text=" ist eine verspielte, moderne Personal-Care-Marke, die Spass macht, sanft ist und sich einfach gut anfühlt. Mild, pflegend und visuell weich verwandelt sie jede Dusche in einen kleinen Wohlfühlmoment."
             />
 
             <List
-              title="Personality"
+              title="Persönlichkeit"
               items={[
-                "Optimistic, light, approachable",
-                "Playful, never preachy",
-                "Friendly, rounded, modern",
+                "Optimistisch, leicht, zugänglich",
+                "Spielerisch, aber niemals belehrend",
+                "Freundlich, weich, modern",
               ]}
             />
 
             <List
-              title="Audience"
+              title="Zielgruppe"
               items={[
-                "18-35, health-conscious, trend-savvy",
-                "Pastel-loving, social media friendly",
-                "Values clean, minimal, feel-good design",
+                "18-35 Jahre",
+                "gesundheitsbewusst",
+                "trendaffin",
+                "Liebt Pastellfarben",
+                "social-media-affin",
+                "Schätzt klares, minimalistisches, positives Design",
               ]}
             />
           </div>
@@ -62,7 +65,9 @@ const Mora = () => {
                 color: "#E7BFC8",
                 label: "Raspberry & Hibiscus - Pastel Raspberry",
               },
-              { color: "#F3A7B3", label: "Cherry & Almond - Pastel Cherry" },
+              { color: "#F3A7B3", 
+                label: "Cherry & Almond - Pastel Cherry"
+              },
             ]}
             footer="Namenssystem: Erst die Hauptnote (Flavor), dann eine verspielte zweite Note"
             colorPalette={colorPalette}

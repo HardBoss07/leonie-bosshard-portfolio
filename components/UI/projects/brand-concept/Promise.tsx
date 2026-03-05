@@ -19,7 +19,7 @@ export const Promise = ({
         className="text-sm font-bold mb-4 uppercase tracking-[0.3em]"
         style={{ color: accentColor }}
       >
-        The Promise
+        Das Versprechen
       </h3>
       <p
         className="text-center-no-justify text-3xl md:text-4xl font-medium leading-relaxed"
