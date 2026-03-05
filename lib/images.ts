@@ -4,14 +4,27 @@ import { ImageData } from "@/types/image";
 export const projectImages: Record<string, ImageData[]> = {
   bubbl: [
     {
-      src: `${IMAGE_PREFIX[0]}bubbl_1_4000x4000.png`,
-      alt: "Bubbl Image 1",
+      src: `${IMAGE_PREFIX[0]}bubbl_6_4000x4000.png`,
+      alt: "Bubbl Image 6",
       w: 4000,
       h: 4000,
     },
     {
       src: `${IMAGE_PREFIX[0]}bubbl_2_4000x4000.png`,
       alt: "Bubbl Image 2",
+      w: 4000,
+      h: 4000,
+    },
+    {
+      src: `${IMAGE_PREFIX[0]}bubbl_5_4000x4000.png`,
+      alt: "Bubbl Image 5",
+      w: 4000,
+      h: 4000,
+    },
+
+    {
+      src: `${IMAGE_PREFIX[0]}bubbl_1_4000x4000.png`,
+      alt: "Bubbl Image 1",
       w: 4000,
       h: 4000,
     },
@@ -27,18 +40,8 @@ export const projectImages: Record<string, ImageData[]> = {
       w: 3400,
       h: 3200,
     },
-    {
-      src: `${IMAGE_PREFIX[0]}bubbl_5_4000x4000.png`,
-      alt: "Bubbl Image 5",
-      w: 4000,
-      h: 4000,
-    },
-    {
-      src: `${IMAGE_PREFIX[0]}bubbl_6_4000x4000.png`,
-      alt: "Bubbl Image 6",
-      w: 4000,
-      h: 4000,
-    },
+
+
   ],
   graphicDesign: [
     {
@@ -62,16 +65,16 @@ export const projectImages: Record<string, ImageData[]> = {
   ],
   independentPhotography: [
     {
-      src: `${IMAGE_PREFIX[3]}independent_photography_1_1066x1600.png`,
-      alt: "Independent Photography Image 1",
-      w: 1066,
-      h: 1600,
-    },
-    {
       src: `${IMAGE_PREFIX[3]}independent_photography_2_2731x4096.png`,
       alt: "Independent Photography Image 2",
       w: 2731,
       h: 4096,
+    },
+    {
+      src: `${IMAGE_PREFIX[3]}independent_photography_1_1066x1600.png`,
+      alt: "Independent Photography Image 1",
+      w: 1066,
+      h: 1600,
     },
     {
       src: `${IMAGE_PREFIX[3]}independent_photography_3_1066x1600.png`,
@@ -132,24 +135,6 @@ export const projectImages: Record<string, ImageData[]> = {
       h: 3000,
     },
     {
-      src: `${IMAGE_PREFIX[1]}mora_2_4000x3000.png`,
-      alt: "Mora Image 2",
-      w: 4000,
-      h: 3000,
-    },
-    {
-      src: `${IMAGE_PREFIX[1]}mora_3_3400x3200.png`,
-      alt: "Mora Image 3",
-      w: 3400,
-      h: 3200,
-    },
-    {
-      src: `${IMAGE_PREFIX[1]}mora_4_4000x2667.png`,
-      alt: "Mora Image 4",
-      w: 4000,
-      h: 2667,
-    },
-    {
       src: `${IMAGE_PREFIX[1]}mora_5_4000x3000.png`,
       alt: "Mora Image 5",
       w: 4000,
@@ -161,6 +146,24 @@ export const projectImages: Record<string, ImageData[]> = {
       w: 4000,
       h: 3000,
     },
+    {
+      src: `${IMAGE_PREFIX[1]}mora_2_4000x3000.png`,
+      alt: "Mora Image 2",
+      w: 4000,
+      h: 3000,
+    },
+    {
+      src: `${IMAGE_PREFIX[1]}mora_4_4000x2667.png`,
+      alt: "Mora Image 4",
+      w: 4000,
+      h: 2667,
+    },
+    {
+      src: `${IMAGE_PREFIX[1]}mora_3_3400x3200.png`,
+      alt: "Mora Image 3",
+      w: 3400,
+      h: 3200,
+    },
   ],
   pagerPrototype: [
     {
@@ -168,6 +171,12 @@ export const projectImages: Record<string, ImageData[]> = {
       alt: "Pager Prototype Image 1",
       w: 1198,
       h: 804,
+    },
+    {
+      src: `${IMAGE_PREFIX[7]}pager_prototype_4_1208x808.png`,
+      alt: "Pager Prototype Image 4",
+      w: 1208,
+      h: 808,
     },
     {
       src: `${IMAGE_PREFIX[7]}pager_prototype_2_1278x856.png`,
@@ -180,12 +189,6 @@ export const projectImages: Record<string, ImageData[]> = {
       alt: "Pager Prototype Image 3",
       w: 1208,
       h: 810,
-    },
-    {
-      src: `${IMAGE_PREFIX[7]}pager_prototype_4_1208x808.png`,
-      alt: "Pager Prototype Image 4",
-      w: 1208,
-      h: 808,
     },
   ],
   portrait: [
@@ -222,12 +225,6 @@ export const projectImages: Record<string, ImageData[]> = {
   ],
   productPhotography: [
     {
-      src: `${IMAGE_PREFIX[5]}product_photography_1_3078x4096.png`,
-      alt: "Product Photography Image 1",
-      w: 3078,
-      h: 4096,
-    },
-    {
       src: `${IMAGE_PREFIX[5]}product_photography_2_3317x4096.png`,
       alt: "Product Photography Image 2",
       w: 3317,
@@ -238,6 +235,12 @@ export const projectImages: Record<string, ImageData[]> = {
       alt: "Product Photography Image 3",
       w: 2795,
       h: 2820,
+    },
+    {
+      src: `${IMAGE_PREFIX[5]}product_photography_1_3078x4096.png`,
+      alt: "Product Photography Image 1",
+      w: 3078,
+      h: 4096,
     },
   ],
   redentApp: [
