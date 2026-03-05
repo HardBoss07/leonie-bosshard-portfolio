@@ -69,7 +69,7 @@ const Header = () => {
               href="#about"
               className="text-neutral-400 hover:text-white transition-colors font-medium"
             >
-              About me
+              Über mich
             </Link>
           </li>
           <li>
@@ -85,7 +85,7 @@ const Header = () => {
               href="#contact"
               className="text-neutral-400 hover:text-white transition-colors font-medium"
             >
-              Contact
+              Kontakt
             </Link>
           </li>
         </ul>
@@ -110,7 +110,7 @@ const Header = () => {
             onClick={handleLinkClick}
             className="text-3xl font-bold text-neutral-400 hover:text-primary-accent transition-colors"
           >
-            About me
+            Über mich
           </Link>
           <Link
             href="#portfolio"
@@ -124,7 +124,7 @@ const Header = () => {
             onClick={handleLinkClick}
             className="text-3xl font-bold text-neutral-400 hover:text-primary-accent transition-colors"
           >
-            Contact
+            Kontakt
           </Link>
         </nav>
       </div>

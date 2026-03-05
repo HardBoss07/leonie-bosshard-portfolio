@@ -59,7 +59,7 @@
   }
 
   .project-text {
-    @apply text-justify max-w-4xl flex flex-col gap-4 text-lg leading-relaxed;
+    @apply text-justify flex flex-col gap-4 text-lg leading-relaxed;
   }
 
   .project-header-section {

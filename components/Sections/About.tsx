@@ -7,10 +7,10 @@ const About = () => {
       <div className="page-container">
         <div className="flex flex-col items-center mb-12 space-y-2">
           <h2 className="text-4xl md:text-5xl font-bold text-primary-accent">
-            About Me
+            Über mich
           </h2>
           <h3 className="text-xl text-neutral-400 font-medium">
-            Intermedia Student, Photographer
+            Intermedia Studentin, Fotografin
           </h3>
         </div>
 

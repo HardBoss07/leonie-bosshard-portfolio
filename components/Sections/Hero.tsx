@@ -30,7 +30,7 @@ export default function Hero() {
       <div className="page-container flex flex-col lg:flex-row items-center justify-between gap-12">
         <div className="flex flex-col gap-1 z-10 max-w-2xl text-center lg:text-left items-center lg:items-start">
           <h4 className="text-xl md:text-2xl text-[#656565] font-semibold mb-1">
-            Hi I am
+            Hi Ich bin
           </h4>
           <h3 className="text-3xl md:text-4xl text-primary-text font-bold">
             Leonie Bosshard
@@ -43,12 +43,12 @@ export default function Hero() {
 
           <div className="flex flex-row gap-4 sm:gap-6 items-center">
             <ButtonComponent
-              text="Contact me"
+              text="Kontakt"
               style="btn-primary"
               onClick={contactMe}
             />
             <ButtonComponent
-              text="Download CV"
+              text="Lebenslauf"
               style="btn-outline"
               onClick={downloadCV}
             />
