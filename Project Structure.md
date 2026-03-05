@@ -55,7 +55,6 @@ leonie-bosshard-portfolio/
 │   │   └── index.ts
 │   └── skills/
 │       ├── AdobeIcon.tsx
-│       ├── AdobePremiere.tsx
 │       ├── SkillGroup.tsx
 │       ├── SkillIndicator.tsx
 │       └── index.ts

@@ -6,7 +6,9 @@
     "dev": "next dev -p 4000",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fix-line-endings": "find . \\( -path \"./node_modules\" -o -path \"./.next\" \\) -prune -o -type f -exec unix2dos {} +",
+    "format": "npx prettier . --write && npm run fix-line-endings"
   },
   "dependencies": {
     "clsx": "^2.1.1",
