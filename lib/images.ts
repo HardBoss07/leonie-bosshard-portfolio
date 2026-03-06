@@ -177,16 +177,16 @@ export const projectImages: Record<string, ImageData[]> = {
       h: 808,
     },
     {
-      src: `${IMAGE_PREFIX[7]}pager_prototype_3_1278x856.png`,
+      src: `${IMAGE_PREFIX[7]}pager_prototype_3_1036x696.png`,
       alt: "Pager Prototype Image 3",
-      w: 1278,
-      h: 856,
+      w: 1036,
+      h: 696,
     },
     {
-      src: `${IMAGE_PREFIX[7]}pager_prototype_4_1208x810.png`,
+      src: `${IMAGE_PREFIX[7]}pager_prototype_4_1024x683.png`,
       alt: "Pager Prototype Image 4",
-      w: 1208,
-      h: 810,
+      w: 1024,
+      h: 683,
     },
   ],
   portrait: [

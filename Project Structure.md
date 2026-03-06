@@ -116,8 +116,8 @@ leonie-bosshard-portfolio/
 │       │   ├── pager-prototype/
 │       │   │   ├── pager_prototype_1_1198x804.png
 │       │   │   ├── pager_prototype_2_1208x808.png
-│       │   │   ├── pager_prototype_3_1278x856.png
-│       │   │   └── pager_prototype_4_1208x810.png
+│       │   │   ├── pager_prototype_3_1036x696.png
+│       │   │   └── pager_prototype_4_1024x683.png
 │       │   ├── portrait-photography/
 │       │   │   ├── portrait_photography_1_2296x2296.png
 │       │   │   ├── portrait_photography_2_2296x2296.png
