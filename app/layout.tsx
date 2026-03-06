@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       "Creative portfolio showcasing Graphic Design, UI/UX, and Photography projects.",
     images: [
       {
-        url: "/images/headshot.png",
+        url: "/images/headshot.avif",
         width: 1200,
         height: 630,
         alt: "Leonie Bosshard Portfolio",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: "Leonie Bosshard | Graphic Design & UI/UX Specialist",
     description:
       "Creative portfolio showcasing Graphic Design, UI/UX, and Photography projects.",
-    images: ["/images/headshot.png"],
+    images: ["/images/headshot.avif"],
   },
   robots: {
     index: true,
@@ -83,7 +83,7 @@ export default function RootLayout({
     name: "Leonie Bosshard",
     jobTitle: "Graphic Designer & UI/UX Designer",
     url: "https://leoniebosshard.m4tt3o.dev",
-    image: "https://leoniebosshard.m4tt3o.dev/images/headshot.png",
+    image: "https://leoniebosshard.m4tt3o.dev/images/headshot.avif",
     description:
       "Professional Graphic Designer and UI/UX Specialist based in Switzerland.",
     address: {

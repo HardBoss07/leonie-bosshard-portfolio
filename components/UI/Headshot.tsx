@@ -21,7 +21,7 @@ const Headshot = ({
       )}
     >
       <Image
-        src="/images/headshot.png"
+        src="/images/headshot.avif"
         alt="Headshot"
         fill
         priority

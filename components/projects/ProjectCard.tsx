@@ -14,7 +14,7 @@ const ProjectCard: React.FC<ExtendedProjectCardProps> = ({
   url,
   priority = false,
 }) => {
-  const placeholderImagePath = `/images/example.png`;
+  const placeholderImagePath = `/images/example.avif`;
 
   return (
     <Link href={url} className="block group">
