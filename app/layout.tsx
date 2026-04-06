@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next"
 
 const lato = Lato({
   weight: ["100", "300", "400", "700", "900"],
@@ -115,6 +116,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
