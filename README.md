@@ -30,7 +30,7 @@ This project focused on end-to-end client collaboration, transforming complex UI
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/leonie-bosshard-portfolio.git
+git clone https://github.com/HardBoss07/leonie-bosshard-portfolio.git
 cd leonie-bosshard-portfolio
 ```
 
@@ -47,4 +47,4 @@ npm run dev
 ```
 
 4. **Access local server:**
-   Open `http://localhost:3000` in your browser.
+   Open `http://localhost:4000` in your browser.
